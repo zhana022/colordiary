@@ -1,12 +1,107 @@
 body{
     background-color: black;
 }
-h1{
-    color: white;
+.topic{
+    position: relative;
+    left: 570px;
 }
-h2{
+h3{
+    position: relative;
+    left: 680px;
+}
+.Sep17{
+    background-color:white ;
+    color: black;
+    width: 150px;
+    height: 80px;
+    position:relative;
+    left: 270px;
+    padding-left: 50px;
+}
+.All17{
+    position: relative;
+    left: 0px;
+}
+.S17{
+    position: relative;
+    left: 300px;
+}
+
+.Sep18{
     background-color: white;
     color: black;
+    width: 150px;
+    height: 80px;
+    position:relative;
+    left: 270px;
+    padding-left: 50px;
+}
+.All18{
+    position: relative;
+    left: 150px;
+}
+.S18{
+    position: relative;
+    left: 300px;
+}
+
+.Sep19{
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 80px;
+    position:relative;
+    left: 300px;
+    padding-left: 50px;
+}
+.All19{
+    position: relative;
+    left: 300px;
+}
+.S19{
+    position: relative;
+    left: 330px;
+}
+
+.Sep20{
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 80px;
+    position:relative;
+    left: 310px;
+    padding-left: 50px;
+}
+.All20{
+    position: relative;
+    left: 450px;
+}
+.S20{
+    position: relative;
+    left: 340px;
+}
+
+.Sep21{
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 80px;
+    position:relative;
+    left: 320px;
+    padding-left: 50px;
+}
+.All21{
+    position: relative;
+    left: 600px;
+}
+.S21{
+    position: relative;
+    left: 350px;
+}
+
+h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 a{
     color: white;

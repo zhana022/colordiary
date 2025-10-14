@@ -1,27 +1,77 @@
 body{
     background-color: aquamarine;
 }
+
+.topic{
+    color: darkslategray;
+    font-size: 60px;
+    position: relative;
+    left: 130px;
+}
+h3{
+    position: relative;
+    left: 130px;
+}
+
 .Oct4{
     background-color: white;
     color: darkslategrey;
     padding:20px ;
     margin: 50px;
-    width: auto;
-    height: auto;
+    width: 150px;
+    height: 30px;
+    position: relative;
+    left: 100px;
 }
+
 .Oct5{
     background-color: white;
     color: darkslategrey;
     padding:20px ;
     margin: 50px;
-    width: auto;
-    height: auto;
+    width: 150px;
+    height: 30px;
+    position: relative;
+    left: 100px;
 }
+
 .Oct6{
     background-color: white;
     color: darkslategrey;
     padding:20px ;
     margin: 50px;
-    width: auto;
-    height: auto;
+    width: 150px;
+    height: 30px;
+    position: relative;
+    left: 100px;
+}
+
+h1{
+    position: relative;
+    left:15px;
+    bottom: 25px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+}
+.book{
+    position: relative;
+    left: 100px;
+    display: inline;
+}
+.abracadabra{
+    position: relative;
+    left: 100px;
+}
+.midautumn{
+    position: relative;
+    left: 100px;
+}
+#Oct4text{
+    font-size: 20px;
+}
+#Oct5text{
+    font-size: 20px;
+}
+#Oct6text{
+    font-size: 20px;
 }

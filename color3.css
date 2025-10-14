@@ -1,8 +1,83 @@
 body{
-    background-color: black;
+    background-color:midnightblue;
+
+}
+.topic{
+    position: relative;
+    left:570px;
+}
+h3{
+    position: relative;
+    left: 640px;
+}
+.sentence24{
+    background-color: mediumblue;
+    color: white;
+    width: 500px;
+    height: 80px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    left: 450px;
+}
+.S24{
+    position: relative;
+    left: 650px;
+}
+
+.sentence25{
+    background-color: mediumblue;
+    color: white;
+    width: 1000px;
+    height: 150px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    position: relative;
+    left: 250px;
+}
+.S25{
+    position: relative;
+    left: 650px;
+}
+
+.sentence26{
+    background-color: mediumblue;
+    color: white;
+    width: 500px;
+    height: 80px;
+    padding-top: 3px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 1px;
+    position: relative;
+    left: 450px;
+}
+.S26{
+    position: relative;
+    left:650px;
+}
+
+.sentence28{
+    background-color: mediumblue;
+    color: white;
+    width: 800px;
+    height: 250px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 30px;
+    position: relative;
+    left: 300px;
+}
+.S28{
+    position: relative;
+    left: 650px;
 }
 h1{
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h2{
     color: white;

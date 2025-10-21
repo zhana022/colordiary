@@ -1,24 +1,83 @@
 body{
     background-color: black;
+    height: 1000px;
+    background-image: url("trees.jpg");
+  background-size: cover;          
+  background-repeat: no-repeat;     
+  background-position: center;   
+}
+.parent{
+    position: relative;
+    width: 100vh;
+    height: 100vh;
 }
 h1{
-    color: white;
+    color: rgb(0, 0, 0);
+    text-decoration-style: wavy black;
     font-size: 60px;
-    position: relative;
-    left: 610px;
+    position: absolute;
+    top: 10px;
+    left: 650px;
+    font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 ul{
-    background-color:white;
     width: 300px;
     height: auto;
     color:black;
     font-size: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
-    left: 520px;
+    left: 300px;
 }
 h3{
-    color: white;
+    color: rgb(0, 0, 0);
     position: relative;
     left: 500px;
+}
+.calendar{
+    background-color: white;
+    border: 50px black inset;
+    width: 700px;
+    height: 600px;
+    position: absolute;
+    top: 250px;
+    left: 10%;
+}
+.c1 a{
+  display: block;    
+  margin-bottom: 10px; 
+  text-decoration: none;
+  position: relative;
+  left: 90px;
+  top: 50px;
+  color: rgb(74, 74, 74);
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.c2 a{
+    display: block;    
+  margin-bottom: 10px; 
+  text-decoration: none;
+  position: relative;
+  left: 330px;
+  top: 50px;
+  color: rgb(149, 149, 149);
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.home{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: relative;
+    left: 135px;
+    top: 180px;
+    background-color: gray;
+    text-decoration: underline black;
+    font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
 }

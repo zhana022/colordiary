@@ -1,0 +1,111 @@
+.parent{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+h1{
+    font-size: 40px;
+    position: relative;
+    left: 40%;
+    top: 50px;
+}
+a{
+    font-size: 30px;
+    position: relative;
+    left: 40%;
+    top: 30px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.rjq{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    background-color: gray;
+    width: 1300px;
+    height: 800px;
+}
+.qall{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+     width: 1100px;
+    border: 10px white solid;
+}
+.q1{
+    width: 500px;
+    height: 600px;
+     position: relative;
+    left: 40px;
+}
+.q2{
+    width: 500px;
+    height: 600px;
+    position: relative;
+    left: 60px;
+}
+
+
+.parsons{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    background-color: gray;
+    width: 1300px;
+    height: 1150px;
+}
+.pall1{
+    width: 500px;
+    height: 600px;
+    position: relative;
+    left: 40px;
+}
+.pall2{
+    width: 500px;
+    height: 600px;
+    position: relative;
+    left: 60px;
+}
+.outsider{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    display: block;
+    width: 1100px;
+    border: 10px white solid;
+}
+.hidden{
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.tina{
+    width: 240px;
+    height: 150px;
+}
+.eve1{
+    width: 240px;
+    height: 150px;
+}
+.eve2{
+    width: 240px;
+    height: 150px;
+}
+.rui{
+    width: 240px;
+    height: 150px;
+}
+.abby{
+    width: 240px;
+    height: 150px;
+}
+.parsons :hover .outsider{
+    display: none;
+}
+.parsons :hover .hidden{
+    display: block;
+}

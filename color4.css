@@ -1,56 +1,169 @@
 body{
     background-color: aquamarine;
+    width: 100vw;
 }
 
-.topic{
+a{
     color: darkslategray;
-    font-size: 60px;
+    font-size: 20px;
+    display: flex;
+    width: auto;
+    text-decoration: none;
+}
+.parent{
+    background-color: rgb(27, 69, 48);
     position: relative;
-    left: 130px;
+    width: 1100px;
+    height: 2400px;
+    top: 0px;
+    left: 160px;
+    border: 20px white outset;
+}
+.topic{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-align: center;
+    top: 20px;
+    background-color: darkslategray;
 }
 h3{
-    position: relative;
-    left: 130px;
+    display: flex;
+    justify-content: center;
 }
 
+
+
 .Oct4{
-    background-color: white;
-    color: darkslategrey;
+    color: rgb(255, 255, 255);
     padding:20px ;
     margin: 50px;
     width: 150px;
     height: 30px;
     position: relative;
-    left: 100px;
+    top: 20px;
+    left: 0px;
+    text-decoration: underline rgb(174, 229, 218) 3px;
+}
+.overall1{
+    background-color: rgb(11, 49, 33);
+    width: 800px;
+    height: 700px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border: 20px inset rgb(174, 229, 218);
+}
+#Oct4text{
+    font-size: 20px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: white;
+    font-family: "GFS Didot", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.octimg4{
+    position: relative;
+    left: 0px;
+    top: 0px;
+     border: 10px rgb(174, 229, 218) ridge;
 }
 
+
+
+
+.overall2{
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border: 20px inset rgb(11, 49, 33);
+}
 .Oct5{
     background-color: white;
     color: darkslategrey;
-    padding:20px ;
-    margin: 50px;
     width: 150px;
     height: 30px;
+    font-size: 8px;
+    padding: 10px;
     position: relative;
-    left: 100px;
+    left: 20px;
+    top: 40px;
+    text-decoration: underline rgb(58, 88, 82) 3px;
+}
+#Oct5text{
+    font-size: 15px;
+    position: relative;
+    left: 0px;
+    top: 10px;
+    color: darkslategrey;
+    font-family: "GFS Didot", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.octimg5{
+    position: relative;
+    left: 0px;
+    top: 10px;
+    border: 10px darkslategrey ridge;
+}
+.position{
+    position: relative;
+    left: 300px;
+}
+
+
+
+
+
+
+.overall3{
+    background-color: rgb(11, 49, 33);
+    width: 800px;
+    height: 800px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border: 20px inset rgb(174, 229, 218);
 }
 
 .Oct6{
-    background-color: white;
-    color: darkslategrey;
+    color: rgb(255, 255, 255);
     padding:20px ;
     margin: 50px;
     width: 150px;
     height: 30px;
     position: relative;
-    left: 100px;
+    left: 0px;
+    top: 20px;
+    text-decoration: underline rgb(174, 229, 218) 3px;
 }
+#Oct6text{
+    font-size: 20px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: white;
+    font-family: "GFS Didot", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.octimg6{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    border: 10px rgb(174, 229, 218) ridge;
+}
+
+
 
 h1{
     position: relative;
     left:15px;
     bottom: 25px;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
      
 }
 .book{
@@ -65,13 +178,4 @@ h1{
 .midautumn{
     position: relative;
     left: 100px;
-}
-#Oct4text{
-    font-size: 20px;
-}
-#Oct5text{
-    font-size: 20px;
-}
-#Oct6text{
-    font-size: 20px;
 }

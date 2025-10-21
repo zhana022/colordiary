@@ -1,0 +1,179 @@
+body{
+    background-color: black;
+    width: auto;
+    height: 1900px;
+}
+.topic{
+    display: block;
+    width: auto;
+    text-align: center;
+    position: relative;
+    top: 25px;
+    color: white;
+    font-size: 40px;
+    border: 10px wheat groove;
+}
+h3{
+    display: block;
+    width: auto;
+    text-align: center;
+}
+a{
+    position: relative;
+    top: 5px;
+    width: auto;
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    color: black;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    color:white;
+}
+.date{
+    position: relative;
+    left: 65px;
+    font-size: 25px;
+    text-decoration: double black;
+}
+
+.parent{
+    position: relative;
+}
+pre{
+    position: relative;
+    left: 40px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+.child{
+    background-color: rgb(68, 62, 51);
+    border: 15px wheat groove;
+    position: relative;
+    left: 20px;
+    width: 1370px;
+    height: 1600px;
+}
+.change{
+    position: relative;
+    top: 50px;
+}
+
+
+.All17{
+    position: absolute;
+    display: flex;
+    left: 70px;
+    top: 10px;
+    align-items: flex-start;
+}
+.All17 img{
+    height: auto;
+}
+.Sep17{
+    background-color: white;
+    color: black;
+    top: 10px;
+    width: 230px;
+    height: 130px;
+    border: 10px rgb(131, 131, 131) solid;
+}
+
+
+
+
+.All18{
+    position: absolute;
+    display: flex;
+    left: 10%;
+    top: 250px;
+    align-items: flex-start;
+}
+.Sep18{
+    background-color: white;
+    color: black;
+    top: 250px;
+    width: 230px;
+    height: 130px;
+    border: 10px rgb(131, 131, 131) solid;
+}
+
+
+
+
+
+
+.All19{
+    position: absolute;
+    display: flex;
+    left: 20%;
+    top: 500px;
+    align-items: flex-start;
+}
+.Sep19{
+    background-color: white;
+    color: black;
+    top: 500px;
+    width: 230px;
+    height: 130px;
+    border: 10px rgb(131, 131, 131) solid;
+}
+
+
+
+
+
+.All20{
+    position: absolute;
+    display: flex;
+    left: 30%;
+    top: 750px;
+    align-items: flex-start;
+}
+.Sep20{
+    background-color: white;
+    color: black;
+    top: 750px;
+    width: 230px;
+    height: 130px;
+    border: 10px rgb(131, 131, 131) solid;
+}
+
+
+
+
+
+
+
+.All21{
+    position: absolute;
+    display: flex;
+    left: 40%;
+    top: 1000px;
+    align-items: flex-start;
+}
+.Sep21{
+    background-color: white;
+    color: black;
+    top: 1000px;
+    width: 230px;
+    height: 130px;
+    border: 10px rgb(131, 131, 131) solid;
+}
+
+
+
+
+
+
+img{
+    width: 450px;
+    border: 20px rgb(255, 255, 255) solid;
+}

@@ -1,0 +1,127 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+    height: auto;
+}
+h1{
+    color: white;
+    position: relative;
+    top: 10%;
+    text-align: center;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+}
+.parent{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+a{
+    color: white;
+    position: relative;
+    left: 45vw;
+    text-decoration: none;
+}
+.oct24image{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    width: 30%;
+    height: auto;
+    opacity: 1;
+    border-radius: 5%;
+}
+
+.oct24click{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    width: 30%;
+    height: 90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: -1;
+    opacity: 1;
+}
+.oct24click img{
+    width: 100%;
+    height: auto;
+    
+}
+.oct24image:hover{
+    opacity: 0;
+}
+
+
+.oct29image{
+    position: absolute;
+    top: 3%;
+    left: 35%;
+    width: 30%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.oct29click{
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    width: 25%;
+    opacity: 1;
+    z-index: -1;
+    border: 0.2vw white solid;
+}
+.oct29image:hover{
+    opacity: 0;
+}
+
+.oct31image{
+    position: absolute;
+    top: 3%;
+    left: 67%;
+    width: 30%;
+    height: auto;
+    opacity: 1;
+    border-radius: 5%;
+}
+.oct31back{
+    position: absolute;
+    top: 5%;
+    left: 67%;
+    width: 28vw;
+    height: 65vh;
+    opacity: 1;
+    z-index: -1;
+    display: block;
+    border: 0.2vw white solid;
+}
+.oct31backimage{
+    position: absolute;
+    top: 2vh;
+    left: 3%;
+    width: 15vw;
+    height: auto;
+}
+.dune{
+    position: absolute;
+    top: 40vh;
+    left: 0vw;
+    color: white;
+}
+
+.oct31image:hover{
+    opacity: 0;
+}
+
+
+/*.oct24clickimage{
+    position: absolute;
+    top:3%;
+    left: 5%;
+    width: 30%;
+    height: auto;
+}/

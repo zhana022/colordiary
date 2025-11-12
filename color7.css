@@ -1,0 +1,53 @@
+body{
+    overflow-x: hidden;
+    height: auto;
+}
+
+h1{
+    position: absolute;
+    left: 40vw;
+    top: 3vh;
+}
+
+a{
+    position: absolute;
+    left: 44vw;
+    top: 13vh;
+}
+
+
+
+.all{
+    position: absolute;
+    top: 25vh;
+    left: 18vw;
+    width: 60vw;
+    height: auto;
+    border: 2vw gray solid;
+}
+
+.video{
+    position: relative;
+    background-color: black;
+    width: 40vw;
+    height: 50vh;
+    top:115vh;
+    left: 18vw;
+}
+.betweencontent{
+    position: relative;
+    top: 65vh;
+    left: 13vw;
+}
+.rain{
+    position: relative;
+    top: 100vh;
+}
+.video2{
+    position: relative;
+    background-color: black;
+    width: 30vw;
+    height: 80vh;
+    top:70vh;
+    left: 35vw;
+}

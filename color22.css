@@ -1,26 +1,30 @@
 body{
     background-color: black;
     width: auto;
-    height: 1900px;
+    height: 110vh;
 }
 .topic{
     display: block;
     width: auto;
     text-align: center;
     position: relative;
-    top: 25px;
+    top: 3%;
+    height: 4%;
     color: white;
-    font-size: 40px;
-    border: 10px wheat groove;
+    font-size: 6vh;
+    
 }
 h3{
-    display: block;
+    /*display: block;*/
+    position: relative;
     width: auto;
+    height: 3%;
     text-align: center;
+    font-size: 2.5vh;
+    top: 1%;
 }
 a{
     position: relative;
-    top: 5px;
     width: auto;
     color: white;
     text-decoration: none;
@@ -28,7 +32,7 @@ a{
 
 h1{
     color: black;
-    font-family: "Anton", sans-serif;
+    font-family: "Macondo", cursive;
     font-weight: 400;
     font-style: normal;
 }
@@ -37,8 +41,8 @@ h2{
 }
 .date{
     position: relative;
-    left: 65px;
-    font-size: 25px;
+    left: 15%;
+    font-size: 3vh;
     text-decoration: double black;
 }
 
@@ -46,44 +50,76 @@ h2{
     position: relative;
 }
 pre{
-    position: relative;
-    left: 40px;
+    position: absolute;
+    top:35% ;
+    left: 5%;
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 15px;
+    font-size: 2vh;
 }
 .child{
-    background-color: rgb(68, 62, 51);
-    border: 15px wheat groove;
     position: relative;
-    left: 20px;
-    width: 1370px;
-    height: 1600px;
+    left: 5%;
+    width: 80%;
+    height: 100%;
 }
 .change{
     position: relative;
-    top: 50px;
+    top: 8%;
 }
 
 
 .All17{
     position: absolute;
     display: flex;
-    left: 70px;
-    top: 10px;
+    left: 5%;
+    top: 5%;
     align-items: flex-start;
 }
-.All17 img{
-    height: auto;
+.img17{
+    width: 60vh;
+    border: 20px rgb(255, 255, 255) solid;
 }
 .Sep17{
+    position: absolute;
     background-color: white;
     color: black;
-    top: 10px;
-    width: 230px;
-    height: 130px;
-    border: 10px rgb(131, 131, 131) solid;
+    left: 100%;
+    top: 5%;
+    width: 30%;
+    height: 20%;
+    border: 3px rgb(131, 131, 131) solid;
+}
+
+.hidden17{
+    color: black;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    font-size: 4vh;
+    opacity: 0;
+    z-index: 1;
+}
+.back17{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.All17:hover .hidden17{
+    position: absolute;
+    opacity: 1;
+}
+.All17:hover .back17{
+    opacity: 0.5;
+}
+.All17:hover{
+    transform: scale(1.1);
+}
+.All17:hover .Sep17{
+    opacity: 0;
 }
 
 
@@ -93,16 +129,52 @@ pre{
     position: absolute;
     display: flex;
     left: 10%;
-    top: 250px;
+    top: 100%;
     align-items: flex-start;
 }
+.img18{
+    width: 60vh;
+    border: 20px rgb(255, 255, 255) solid;
+}
 .Sep18{
+    position: absolute;
     background-color: white;
     color: black;
-    top: 250px;
-    width: 230px;
-    height: 130px;
-    border: 10px rgb(131, 131, 131) solid;
+    top: 5%;
+    left: 100%;
+    width: 30%;
+    height: 20%;
+    border: 3px rgb(131, 131, 131) solid;
+}
+
+.hidden18{
+    color: black;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    font-size: 4vh;
+    opacity: 0;
+    z-index: 1;
+}
+.back18{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.All18:hover .hidden18{
+    position: absolute;
+    opacity: 1;
+}
+.All18:hover .back18{
+    opacity: 0.5;
+}
+.All18:hover{
+    transform: scale(1.1);
+}
+.All18:hover .Sep18{
+    opacity: 0;
 }
 
 
@@ -113,17 +185,53 @@ pre{
 .All19{
     position: absolute;
     display: flex;
-    left: 20%;
-    top: 500px;
+    left: 15%;
+    top: 200%;
     align-items: flex-start;
 }
+.img19{
+    width: 60vh;
+    border: 20px rgb(255, 255, 255) solid;
+}
 .Sep19{
+    position: absolute;
     background-color: white;
     color: black;
-    top: 500px;
-    width: 230px;
-    height: 130px;
-    border: 10px rgb(131, 131, 131) solid;
+    top: 5%;
+    left: 100%;
+    width: 30%;
+    height: 20%;
+    border: 3px rgb(131, 131, 131) solid;
+}
+
+.hidden19{
+    color: black;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    font-size: 4vh;
+    opacity: 0;
+    z-index: 1;
+}
+.back19{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.All19:hover .hidden19{
+    position: absolute;
+    opacity: 1;
+}
+.All19:hover .back19{
+    opacity: 0.5;
+}
+.All19:hover{
+    transform: scale(1.1);
+}
+.All19:hover .Sep19{
+    opacity: 0;
 }
 
 
@@ -133,19 +241,54 @@ pre{
 .All20{
     position: absolute;
     display: flex;
-    left: 30%;
-    top: 750px;
+    left: 20%;
+    top: 300%;
     align-items: flex-start;
 }
+.img20{
+    width: 60vh;
+    border: 20px rgb(255, 255, 255) solid;
+}
 .Sep20{
+    position: absolute;
     background-color: white;
     color: black;
-    top: 750px;
-    width: 230px;
-    height: 130px;
-    border: 10px rgb(131, 131, 131) solid;
+    top: 5%;
+    left: 100%;
+    width: 30%;
+    height: 20%;
+    border: 3px rgb(131, 131, 131) solid;
 }
 
+.hidden20{
+    color: black;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    font-size: 4vh;
+    opacity: 0;
+    z-index: 1;
+}
+.back20{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.All20:hover .hidden20{
+    position: absolute;
+    opacity: 1;
+}
+.All20:hover .back20{
+    opacity: 0.5;
+}
+.All20:hover{
+    transform: scale(1.1);
+}
+.All20:hover .Sep20{
+    opacity: 0;
+}
 
 
 
@@ -155,25 +298,61 @@ pre{
 .All21{
     position: absolute;
     display: flex;
-    left: 40%;
-    top: 1000px;
+    left: 25%;
+    top: 400%;
     align-items: flex-start;
 }
-.Sep21{
-    background-color: white;
-    color: black;
-    top: 1000px;
-    width: 230px;
-    height: 130px;
-    border: 10px rgb(131, 131, 131) solid;
-}
-
-
-
-
-
-
-img{
-    width: 450px;
+.img21{
+    width: 60vh;
     border: 20px rgb(255, 255, 255) solid;
 }
+.Sep21{
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 5%;
+    left: 100%;
+    width: 30%;
+    height: 20%;
+    border: 3px rgb(131, 131, 131) solid;
+}
+
+.hidden21{
+    color: black;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    font-size: 4vh;
+    opacity: 0;
+    z-index: 1;
+}
+.back21{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.All21:hover .hidden21{
+    opacity: 1;
+}
+.All21:hover .back21{
+    opacity: 0.5;
+}
+.All21:hover{
+    transform: scale(1.1);
+}
+.All21:hover .Sep21{
+    opacity: 0;
+}
+
+
+
+
+
+
+
+/*img{
+    width: 450px;
+    border: 20px rgb(255, 255, 255) solid;
+}*/

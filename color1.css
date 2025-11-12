@@ -1,11 +1,14 @@
 body{
     background-color: rgb(47, 46, 46);
     height: 1500px;
-    font-family: "Playwrite DE SAS", cursive;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
     border: 30px black solid;
+}
+
+h1{
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vw;
 }
 
 .overall{
@@ -24,34 +27,57 @@ body{
     text-decoration: none;
 }
 .hidden{
-    color: white;
+    color: rgb(143, 199, 255);
     position: relative;
-    left: 10%
+    left: 10%;
+    font-size:15px ;
+    text-decoration: none;
 }
 .parent{
-    background-color: rgb(50, 56, 63);
+    background-color: rgb(28, 29, 30);
     position: relative;
     /*left: 25%;
     top: 40% ;*/
     width: 800px;
     height: 1100px;
     margin: auto;
-    border: rgb(132, 132, 165) 10px solid;
+    top: 30px;
+    border: rgb(255, 255, 255) 10px solid;
 }
 .child{
     color: white;
     position: relative;
     left: 30px;
 }
+.child1{
+    position: relative;
+    left: 7%;
+}
 .child2{
-    color: gray;
+    color: rgb(62, 78, 112);
     width: 400px;
     position: relative;
-    left: 30%;
-    background-color: rgb(234, 228, 219);
+    left: 38%;
+    background-color: rgb(217, 226, 245);
+}
+.child2_1{
+    color: rgb(62, 78, 112);
+    width: 400px;
+    position: relative;
+    left: 39%;
+    background-color: rgb(217, 226, 245);
 }
 .title{
     color: white;
     position: relative;
     text-align: center;
+}
+.date2{
+    position: relative;
+    left: 35px;
+    top: 5px;
+}
+.date22{
+    position: relative;
+    left: 5%;
 }

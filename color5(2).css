@@ -1,0 +1,107 @@
+body{
+    overflow-x: hidden;
+    position: relative;
+    height: 1800px;
+}
+
+
+h1{
+    font-size: 4vw;
+    position: absolute;
+    left: 38%;
+    top: 1%;
+    font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a{
+    font-size: 2vw;
+    position: absolute;
+    left: 43%;
+    top: 8%;
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+    font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.imagelarge{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2%;
+    top: 2%;
+    left: 3%;
+}
+.parent{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    width:90% ;
+    height: 2700px;
+}
+img{
+    width: 95%;
+    height: auto;
+}
+
+
+.pall1{
+    border: 1vh black solid;
+}
+.pall2{
+    border: 1vh black solid;
+}
+
+.tinahi{
+    position: absolute;
+    opacity: 1;
+    width: 30%;
+    height: auto;
+    top: 35%;
+    left: 10%;
+    z-index: -1;
+}
+.ruihi{
+    position: absolute;
+    opacity: 1;
+    width: 30%;
+    height: auto;
+    top: 45%;
+    left: 10%;
+    z-index: -1;
+}
+.eve1hi{
+    position: absolute;
+    opacity: 1;
+    width: 25%;
+    height: auto;
+    top: 31%;
+    left: 60%;
+    z-index: -1;
+}
+.eve2hi{
+    position: absolute;
+    opacity: 1;
+    width: 25%;
+    height: auto;
+    top: 39%;
+    left: 60%;
+    z-index: -1;
+}
+.abbyhi{
+    position: absolute;
+    opacity: 1;
+    width: 25%;
+    height: auto;
+    top: 47%;
+    left: 60%;
+    z-index: -1;
+}
+.pall1:hover{
+    opacity: 0;
+}
+.pall2:hover{
+    opacity: 0;
+}

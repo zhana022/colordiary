@@ -18,14 +18,24 @@ a{
     color: white;
     text-decoration: none;
 }
-.rjq{
+
+
+.all{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    top: 5%;
+    left: 3%;
+    gap: 1%;
+}
+/*.rjq{
     position: relative;
     top: 50px;
     left: 50px;
     background-color: gray;
     width: 1300px;
     height: 800px;
-}
+}*/
 .qall{
     position: absolute;
     top: 10%;
@@ -47,14 +57,14 @@ a{
 }
 
 
-.parsons{
+/*.parsons{
     position: relative;
     top: 100px;
     left: 50px;
     background-color: gray;
     width: 1300px;
     height: 1150px;
-}
+}*/
 .pall1{
     width: 500px;
     height: 600px;
@@ -75,14 +85,14 @@ a{
     width: 1100px;
     border: 10px white solid;
 }
-.hidden{
+/*.hidden{
     position: absolute;
     top: 70%;
     left: 15%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,2fr);
     gap: 10px;
-}
+}*/
 .tina{
     width: 240px;
     height: 150px;

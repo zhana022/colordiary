@@ -1,0 +1,109 @@
+body{
+    overflow-x: hidden;
+}
+h1{
+    position: relative;
+    left: 40%;
+    top: 2vh;
+}
+a{
+    position: relative;
+    left: 45%;
+    top: 2vh;
+}
+
+
+.nov12{
+    position: absolute;
+    width: 100vw;
+    height: 70vh;
+    top: 15%;
+}
+.wegoupsq{
+    position: absolute;
+    left: 7%;
+    top: 10%;
+    width: 25vw;
+    height: auto;
+    z-index: 1;
+}
+.hidden12{
+    position: relative;
+    /*background-color: black;
+    left: 32vw;
+    top: 14%;
+    height: 50vh;
+    width: 60vw;*/
+    opacity: 0;
+}
+
+.nov16{
+    position: absolute;
+    width: 100vw;
+    height: 70vh;
+    top: 85%;
+}
+.bitemepartner{
+    position: absolute;
+    left: 63%;
+    top: 10%;
+    width: 25vw;
+    height: auto;
+}
+.hidden16{
+    position: relative;
+    background-color: black;
+    left: 7vw;
+    top: 13%;
+    height: 50vh;
+    width: 56vw;
+    opacity: 0.5;
+}
+
+.nov17{
+    position: absolute;
+    width: 100vw;
+    height: 70vh;
+    top: 155%;
+}
+.burningupsq{
+    position: absolute;
+    left: 7%;
+    top: 10%;
+    width: 25vw;
+    height: auto;
+}
+.hidden17{
+    position: relative;
+    background-color: black;
+    left: 32vw;
+    top: 13%;
+    height: 50vh;
+    width: 60vw;
+    opacity: 0.5;
+}
+
+
+.wegoupsq:hover{
+    scale: 1.08;
+}
+.wegoupsq:hover .hidden12{
+    opacity: 1;
+    animation-name: pullout;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    background-color: black;
+    left: 32vw;
+    top: 14%;
+    height: 50vh;
+    width: 60vw;
+}
+
+@keyframes pullout{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}

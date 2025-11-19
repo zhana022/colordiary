@@ -5,27 +5,319 @@ body{
 
 h1{
     position: absolute;
-    left: 40vw;
-    top: 3vh;
+    color: white;
+    left: 39vw;
+    top: 1vh;
+    font-size: 3vw;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 a{
     position: absolute;
+    color: white;
     left: 44vw;
     top: 13vh;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.title{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 20vh;
 }
 
 
-
-.all{
+.all1{
     position: absolute;
-    top: 25vh;
-    left: 18vw;
-    width: 60vw;
+    top: 5vh;
+    left: 37vw;
+    width: 25vw;
     height: auto;
-    border: 2vw gray solid;
+}
+.pre1{
+    position: absolute;
+    font-size: 2vw;
+    top: 6vw;
+    left: 10%;
+    opacity: 0;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
+
+.all2{
+    position: absolute;
+    top: 7vh;
+    left: 37vw;
+    width: 25vw;
+    height: auto;
+}
+.pre2{
+    position: absolute;
+    font-size: 2vw;
+    top: 6vw;
+    left: 10%;
+    opacity: 0;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.all3{
+    position: absolute;
+    top: 7vh;
+    left: 37vw;
+    width: 25vw;
+    height: auto;
+}
+.pre3{
+    position: absolute;
+    font-size: 1.5vw;
+    top: 6vw;
+    left: 10%;
+    opacity: 0;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.all4{
+    position: absolute;
+    top: 7vh;
+    left: 37vw;
+    width: 25vw;
+    height: auto;
+}
+.pre4{
+    position: absolute;
+    font-size: 2vw;
+    top: 6vw;
+    left: 15%;
+    opacity: 0;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.all5{
+    position: absolute;
+    top: 7vh;
+    left: 37vw;
+    width: 25vw;
+    height: auto;
+}
+
+.all6{
+    position: absolute;
+    top: 7vh;
+    left: 37vw;
+    width: 25vw;
+    height: auto;
+}
+.pre6{
+    position: absolute;
+    color: red;
+    font-size: 2vw;
+    top: 7vw;
+    left: 28%;
+    opacity: 0;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.imgall1{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 60vh;
+    top: 5vh;
+}
+.imgall2{
+    position: relative;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 60vh;
+    top: 5vh;
+}
+.imgall3{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 60vh;
+    top: 5vh;
+}
+.imgall4{
+    position: relative;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 60vh;
+    top: 5vh;
+}
+.imgall5{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 60vh;
+    top: 5vh;
+}
+.imgall6{
+    position: relative;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 60vh;
+    top: 5vh;
+}
+/*.all1:hover{
+    animation-name: blackwhite;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}*/
+.imgall1:hover{
+    animation-name: blackwhite;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.imgall1:hover .all1{
+    opacity: 0;
+}
+.imgall1:hover .pre1{
+    opacity: 1;
+    animation-name: wordchange1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+.imgall2:hover{
+    animation-name: whiteblack;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.imgall2:hover .all2{
+    opacity: 0;
+}
+.imgall2:hover .pre2{
+    opacity: 1;
+    animation-name: wordchange2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+.imgall3:hover{
+    animation-name: blackwhite;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.imgall3:hover .all3{
+    opacity: 0;
+}
+.imgall3:hover .pre3{
+    opacity: 1;
+    animation-name: wordchange1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+.imgall4:hover{
+    animation-name: whiteblack;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.imgall4:hover .all4{
+    opacity: 0;
+}
+.imgall4:hover .pre4{
+    opacity: 1;
+    animation-name: wordchange2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+.imgall6:hover{
+    animation-name: whiteblack;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.imgall6:hover .all6{
+    opacity: 0;
+}
+.imgall6:hover .pre6{
+    opacity: 1;
+}
+
+
+
+
+@keyframes wordchange1{
+    0%{
+        color: whitesmoke;
+    }
+    50%{
+        color: black;
+    }
+    100%{
+        color: white;
+    }
+}
+@keyframes wordchange2{
+    0%{
+        color: black;
+    }
+    50%{
+        color: whitesmoke;
+    }
+    100%{
+        color: black;
+    }
+}
+@keyframes blackwhite{
+    0%{
+        background-color: black;
+    }
+    50%{
+        background-color: whitesmoke;
+    }
+    100%{
+        background-color: black;
+    }
+}
+@keyframes whiteblack{
+    0%{
+        background-color: whitesmoke;
+    }
+    50%{
+        background-color: black;
+    }
+    100%{
+        background-color: whitesmoke;
+    }
+}
+/*@keyframes dissappear{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
 .video{
     position: relative;
     background-color: black;
@@ -50,4 +342,4 @@ a{
     height: 80vh;
     top:70vh;
     left: 35vw;
-}
+}*/

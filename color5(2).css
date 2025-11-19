@@ -54,6 +54,19 @@ img{
     border: 1vh black solid;
 }
 
+.kristin{
+    border: 1vh black solid;
+}
+.naomi{
+    border: 1vh black solid;
+}
+.pallo{
+    border: 1vh black solid;
+}
+.olivia{
+    border: 1vh black solid;
+}
+
 .tinahi{
     position: absolute;
     opacity: 1;
@@ -103,5 +116,55 @@ img{
     opacity: 0;
 }
 .pall2:hover{
+    opacity: 0;
+}
+
+.kristinhi{
+    position: absolute;
+    opacity: 1;
+    width: 25%;
+    height: auto;
+    top: 64%;
+    left: 13%;
+    z-index: -1;
+}
+.naomihi{
+    position: absolute;
+    opacity: 1;
+    width: 25%;
+    height: auto;
+    top: 64%;
+    left: 63%;
+    z-index: -1;
+}
+.pallohi{
+    position: absolute;
+    opacity: 1;
+    width: 25%;
+    height: auto;
+    top: 93%;
+    left: 13%;
+    z-index: -1;
+}
+.oliviahi{
+    position: absolute;
+    opacity: 1;
+    width: 25%;
+    height: auto;
+    top: 93%;
+    left: 63%;
+    z-index: -1;
+}
+
+.kristin:hover{
+    opacity: 0;
+}
+.naomi:hover{
+    opacity: 0;
+}
+.pallo:hover{
+    opacity: 0;
+}
+.olivia:hover{
     opacity: 0;
 }

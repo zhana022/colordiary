@@ -1,15 +1,40 @@
 body{
     overflow-x: hidden;
+    background-color: black;
+    padding-bottom: 200px;
+    min-height: 200vh;
 }
 h1{
     position: relative;
-    left: 40%;
+    left: 35%;
     top: 2vh;
+    color: white;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5vw;
 }
-a{
-    position: relative;
-    left: 45%;
-    top: 2vh;
+.backimg{
+    position: absolute;
+    left: 6%;
+    top: 7.5%;
+    width: 3%;
+    height: auto;
+}
+.calendar{
+    position: absolute;
+    left: 12%;
+    top: 7.5%;
+    width: 3%;
+    height: auto;
+}
+.arrownext{
+    position: absolute;
+    left: 90%;
+    top: 7.5%;
+    width: 3vw;
+    height: auto;
+    transform: scaleX(-1);
 }
 
 
@@ -17,7 +42,7 @@ a{
     position: absolute;
     width: 100vw;
     height: 70vh;
-    top: 15%;
+    top: 18%;
 }
 .wegoupsq{
     position: absolute;
@@ -26,22 +51,149 @@ a{
     width: 25vw;
     height: auto;
     z-index: 1;
+    filter: grayscale(1);
+    pointer-events: auto;
+}
+.Nov12lab input{
+    display: none;
+    pointer-events: none;
+}
+.arrow1{
+    position: absolute;
+    width: 7%;
+    top: 78%;
+    height: auto;
+    left: 35%;
+}
+.text12{
+    position: absolute;
+    color: white;
+    top: 35%;
+    left: 0%;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vw;
+    z-index: -1;
+}
+.text12-2{
+    position: absolute;
+    color: white;
+    top: 35%;
+    left: 45%;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+    z-index: -1;
+}
+.tag1{
+    position: relative;
+    color: white;
+    font-size: 1.5vw;
+    left: 44%;
+    top: 24%;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
 }
 .hidden12{
     position: relative;
-    /*background-color: black;
+    background-color: black;
     left: 32vw;
-    top: 14%;
-    height: 50vh;
-    width: 60vw;*/
-    opacity: 0;
+    top: 20%;
+    height: 55%;
+    width: 55%;
+    display: none;
+    pointer-events: auto;
+    border: white 3px dashed;
+    box-sizing: border-box;
+    transform-origin: left;
 }
+.polaroidgroup{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    top: 18%;
+    left: 8%;
+}
+.polaroid4{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    top: 18%;
+    left: 50%;
+}
+.date1{
+    position: absolute;
+    color: white;
+    top: 45%;
+    left: 35%;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+}
+.Nov12lab input:checked  ~ .hidden12{
+    animation: pullout 2s forwards;
+    display: block;
+    opacity: 1;
+    max-width: 60vw;
+}
+.Nov12lab input:checked  ~ .wegoupsq{
+    filter: grayscale(0);
+}
+
+
+.Nov12lab input:checked ~ .tag1{
+    animation: hiding 0.5s forwards;
+}
+.Nov12lab input:checked ~ .arrow1{
+    transform: scaleX(-1);
+}
+
+
+
+.Nov12lab input:not(:checked) ~ .hidden12{
+    animation: pullback 2s forwards;
+    display: block;
+}
+.polaroidgroup:hover {
+    animation: hoverin 1s forwards;
+}
+.polaroidgroup:not(:hover) {
+    animation: hoverout 1s forwards;
+}
+.polaroid4:hover {
+    animation: hoverin 1s forwards;
+}
+.polaroid4:not(:hover) {
+    animation: hoverout 1s forwards;
+}
+
+.rightcorner1{
+    position: absolute;
+    width: 5vw;
+    height: auto;
+    top: 70%;
+    left: 90%;
+}
+.rightcorner1-1{
+    position: absolute;
+    width: 5vw;
+    height: auto;
+    top: 25%;
+    left: 90%;
+    transform: scaleY(-1);
+}
+
 
 .nov16{
     position: absolute;
     width: 100vw;
     height: 70vh;
-    top: 85%;
+    top: 88%;
 }
 .bitemepartner{
     position: absolute;
@@ -49,22 +201,179 @@ a{
     top: 10%;
     width: 25vw;
     height: auto;
+    filter: grayscale(1);
+    pointer-events: auto;
+    z-index: 1;
+}
+.Nov16lab input{
+    display: none;
+    pointer-events: none;
 }
 .hidden16{
     position: relative;
     background-color: black;
     left: 7vw;
     top: 13%;
-    height: 50vh;
+    height: 43vh;
     width: 56vw;
-    opacity: 0.5;
+    display: none;
+    pointer-events: auto;
+    border: white 3px dashed;
+    box-sizing: border-box;
+    transform-origin: right;
+    transform: scaleX(0);
 }
+.bitemepartner2{
+    position: absolute;
+    width: 15vw;
+    height: auto;
+    top: 13%;
+    left: 5%;
+}
+.bitemegroup{
+    position: absolute;
+    width: 15vw;
+    height: auto;
+    top: 13%;
+    left: 35%;
+}
+.bitemesolo{
+    position: absolute;
+    width: 15vw;
+    height: auto;
+    top: 13%;
+    left: 65%;
+}
+.date2{
+    position: absolute;
+    color: white;
+    top: 45%;
+    left: 49%;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+}
+.arrow2{
+    position: absolute;
+    width: 7%;
+    top: 77%;
+    height: auto;
+    left: 53%;
+    transform: scaleX(-1);
+}
+.tag2{
+    position: relative;
+    color: white;
+    font-size: 1.5vw;
+    left: 37%;
+    top: 16%;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+}
+.t1{
+    position: absolute;
+    color: white;
+    top: 35%;
+    left: 0%;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+    z-index: -1;
+}
+.t2{
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 30%;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+    z-index: -1;
+}
+.t3{
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 58%;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+    z-index: -1;
+}
+.Nov16lab input:checked  ~ .hidden16{
+    animation: pulloutb 2s forwards;
+    display: block;
+    opacity: 1;
+    max-width: 60vw;
+}
+.Nov16lab input:checked  ~ .bitemepartner{
+    filter: grayscale(0);
+}
+.Nov16lab input:not(:checked) ~ .hidden16{
+    animation: pullbackb 2s forwards;
+    display: block;
+}
+
+
+.Nov16lab input:checked ~ .tag2{
+    animation: hiding 0.5s forwards;
+}
+.Nov16lab input:checked ~ .arrow2{
+    transform: scaleX(1);
+}
+
+
+.bitemepartner2:hover {
+    animation: hoverin 1s forwards;
+}
+.bitemepartner2:not(:hover) {
+    animation: hoverout 1s forwards;
+}
+.bitemegroup:hover{
+    animation: hoverin 1s forwards;
+}
+.bitemegroup:not(:hover){
+    animation: hoverout 1s forwards;
+}
+.bitemesolo:hover{
+    animation: hoverin 1s forwards;
+}
+.bitemesolo:not(:hover){
+    animation: hoverout 1s forwards;
+}
+
+
+
+.leftcorner1{
+    position: absolute;
+    width: 5vw;
+    height: auto;
+    top: 139%;
+    left: 5%;
+}
+.leftcorner2{
+    position: absolute;
+    width: 5vw;
+    height: auto;
+    top: 93%;
+    left: 5%;
+    transform: scaleY(-1);
+}
+
+
+
 
 .nov17{
     position: absolute;
     width: 100vw;
     height: 70vh;
-    top: 155%;
+    top: 160%;
 }
 .burningupsq{
     position: absolute;
@@ -72,38 +381,202 @@ a{
     top: 10%;
     width: 25vw;
     height: auto;
+    filter: grayscale(1);
+    pointer-events: auto;
+    z-index: 1;
+}
+.Nov17lab input{
+    display: none;
+    pointer-events: none;
+}
+.burningupsolo{
+    position: absolute;
+    width: 12vw;
+    height: auto;
+    top: 7%;
+    left: 40%;
 }
 .hidden17{
     position: relative;
     background-color: black;
     left: 32vw;
     top: 13%;
-    height: 50vh;
+    height: 40vh;
     width: 60vw;
-    opacity: 0.5;
+    display: none;
+    pointer-events: auto;
+    border: white 3px dashed;
+    box-sizing: border-box;
+    transform-origin: left;
+    transform: scaleX(0);
+}
+.date3{
+    position: absolute;
+    color: white;
+    top: 45%;
+    left: 35%;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+}
+.arrow3{
+    position: absolute;
+    width: 7%;
+    top: 73%;
+    height: auto;
+    left: 35%;
+}
+.tag3{
+    position: relative;
+    color: white;
+    font-size: 1.5vw;
+    left: 44%;
+    top: 17%;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+}
+.t4{
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 35%;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+    z-index: -1;
 }
 
-
-.wegoupsq:hover{
-    scale: 1.08;
-}
-.wegoupsq:hover .hidden12{
+.Nov17lab input:checked  ~ .hidden17{
+    animation: pullout 2s forwards;
+    display: block;
     opacity: 1;
-    animation-name: pullout;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    background-color: black;
-    left: 32vw;
-    top: 14%;
-    height: 50vh;
-    width: 60vw;
+    max-width: 60vw;
 }
+.Nov17lab input:checked  ~ .burningupsq{
+    filter: grayscale(0);
+}
+
+
+.Nov17lab input:checked ~ .tag3{
+    animation: hiding 0.5s forwards;
+}
+.Nov17lab input:checked ~ .arrow3{
+    transform: scaleX(-1);
+}
+
+
+.Nov17lab input:not(:checked) ~ .hidden17{
+    animation: pullback 2s forwards;
+    display: block;
+}
+.burningupsolo:hover {
+    animation: hoverin 1s forwards;
+}
+.burningupsolo:not(:hover) {
+    animation: hoverout 1s forwards;
+}
+
+.rightcorner2{
+    position: absolute;
+    width: 5vw;
+    height: auto;
+    top: 210%;
+    left: 90%;
+}
+.rightcorner2-1{
+    position: absolute;
+    width: 5vw;
+    height: auto;
+    top: 165%;
+    left: 90%;
+    transform: scaleY(-1);
+}
+
+
+/*a{
+    position: absolute;
+    left: 45%;
+    top: 240%;
+    text-decoration: underline white 2px;
+    color: white;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vw;
+}*/
+
+
+
 
 @keyframes pullout{
     0%{
-        width: 0%;
+        transform: scaleX(0);
+        opacity: 0;
     }
     100%{
-        width: 100%;
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+@keyframes pullback{
+    0%{
+        transform: scaleX(1);
+        opacity: 1;
+    }
+    100%{
+        transform: scaleX(0);
+        opacity: 0;
+    }
+}
+
+@keyframes pulloutb{
+    from {
+        transform: scaleX(0);
+        opacity: 0;
+    }
+    to {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+@keyframes pullbackb{
+    from{
+        transform: scaleX(1);
+        opacity: 1;
+    }
+    to{
+        transform: scaleX(0);
+        opacity: 0;
+    }
+}
+
+@keyframes hoverin{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes hoverout{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes hiding{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
     }
 }

@@ -6,24 +6,35 @@ body{
 h1{
     position: absolute;
     color: white;
-    left: 39vw;
-    top: 1vh;
-    font-size: 3vw;
+    left: 36%;
+    top: 1.7vh;
+    font-size: 3.5vw;
     font-family: "Macondo", cursive;
     font-weight: 400;
     font-style: normal;
 }
 
-a{
+.arrow{
     position: absolute;
-    color: white;
-    left: 44vw;
-    top: 13vh;
-    text-decoration: none;
-    font-size: 1.5vw;
-    font-family: "Macondo", cursive;
-    font-weight: 400;
-    font-style: normal;
+    left: 6%;
+    top: 7.5%;
+    width: 3vw;
+    height: auto;
+}
+.calendar{
+    position: absolute;
+    left: 12%;
+    top: 7.5%;
+    width: 3vw;
+    height: auto;
+}
+.arrownext{
+    position: absolute;
+    left: 90%;
+    top: 7.5%;
+    width: 3vw;
+    height: auto;
+    transform: scaleX(-1);
 }
 .title{
     position: relative;

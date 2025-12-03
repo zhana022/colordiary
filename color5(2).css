@@ -1,30 +1,45 @@
 body{
     overflow-x: hidden;
     position: relative;
-    height: 1800px;
+    padding-bottom: 200px;
+    min-height: 510vh;
 }
 
 
 h1{
-    font-size: 4vw;
+    font-size: 3.5vw;
     position: absolute;
-    left: 38%;
-    top: 1%;
-    font-family: "Sedan SC", serif;
-  font-weight: 400;
-  font-style: normal;
+    left: 37%;
+    top: 1.5vh;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
-a{
-    font-size: 2vw;
+.arrownext{
     position: absolute;
-    left: 43%;
-    top: 8%;
-    color: rgb(100, 100, 100);
-    text-decoration: none;
-    font-family: "Sedan SC", serif;
-  font-weight: 400;
-  font-style: normal;
+    left: 90.5%;
+    top: 1.2%;
+    width: 3vw;
+    height: auto;
+    transform: scaleX(-1);
+    filter: invert(1);
+}
+.arrowback{
+    position: absolute;
+    left: 6%;
+    top: 1.2%;
+    width: 3vw;
+    height: auto;
+    filter: invert(1);
+}
+.calendar{
+    position: absolute;
+    left: 12%;
+    top: 1.2%;
+    width: 3vw;
+    height: auto;
+    filter: invert(1);
 }
 .imagelarge{
     position: absolute;
@@ -37,7 +52,7 @@ a{
 .parent{
     position: absolute;
     left: 5%;
-    top: 10%;
+    top: 20vh;
     width:90% ;
     height: 2700px;
 }

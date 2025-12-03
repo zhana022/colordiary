@@ -1,0 +1,453 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+    min-height: 550vh;
+    padding-bottom: 150px;
+}
+pre{
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2vw;
+}
+.topic{
+    position: absolute;
+    color: white;
+    left: 38%;
+    top: 1.9vh;
+    font-size: 3.5vw;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+h3{
+    color: white;
+}
+.arrowback{
+    position: absolute;
+    left: 6%;
+    top: 7.5%;
+    width: 3vw;
+    height: auto;
+    z-index: 1;
+}
+.arrownext{
+    position: absolute;
+    left: 90%;
+    top: 7.5%;
+    width: 3vw;
+    height: auto;
+    transform: scaleX(-1);
+}
+.calendar{
+    position: absolute;
+    left: 12%;
+    top: 7.5%;
+    width: 3vw;
+    height: auto;
+}
+.card1{
+    position: absolute;
+    width: 50vw;
+    height: 33%;
+    left: 14%;
+    top: 10%;
+}
+.Oct4{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    color: white;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3vw;
+}
+.bookfest{
+    position: absolute;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1vw;
+  top: 220%;
+  left: 55%;
+}
+.oct4text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: white;
+    opacity: 0;
+    text-align: center;
+}
+.oct4pic{
+    position: absolute;
+    width: 50vw;
+    height: 110%;
+    left: 19%;
+    top: 100%;
+}
+.octimg4-1{
+    position: absolute;
+    width: 15vw;
+    height: auto;
+    left:5%;
+    top: 0%;
+    filter: grayscale(1);
+}
+.octimg4-2{
+    position: absolute;
+    width: 15vw;
+    height: auto;
+    left: 40%;
+    top: 0%;
+    filter: grayscale(1);
+}
+.octimg4-3{
+    position: absolute;
+    width: 15vw;
+    height: auto;
+    left: 75%;
+    top: 0%;
+    filter: grayscale(1);
+}
+.octimg4-1:hover{
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+.oct4pic:hover ~ .Oct4{
+    opacity: 0;
+}
+.oct4pic:hover ~ .oct4text{
+    opacity: 1;
+}
+.octimg4-2:hover{
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+.octimg4-3:hover{
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+
+
+
+
+
+.card2{
+    position: absolute;
+    width: 50vw;
+    height: 70%;
+    left: 25%;
+    top: 100%;
+}
+.Oct5{
+    position: absolute;
+    top: 10%;
+    left: 43%;
+    color: white;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3vw;
+}
+.Oct5text{
+    position: absolute;
+    top: 0%;
+    left: 35%;
+    color: white;
+    opacity: 0;
+    text-align: center;
+}
+
+.octimg5-1{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    left:5%;
+    top: 35%;
+    filter: grayscale(1);
+}
+.octimg5-2{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    left:55%;
+    top: 35%;
+    filter: grayscale(1);
+}
+.octimg5-3{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    left:5%;
+    top: 100%;
+    filter: grayscale(1);
+}
+.octimg5-4{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    left:55%;
+    top: 100%;
+    filter: grayscale(1);
+}
+.octimg5-5{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    left:5%;
+    top: 140%;
+    filter: grayscale(1);
+}
+.octimg5-6{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    left:55%;
+    top: 140%;
+    filter: grayscale(1);
+}
+.abshooting{
+    position: absolute;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1vw;
+    top: 170%;
+    left: 40%;
+}
+.abpic:hover ~ .Oct5text{
+    opacity: 1;
+}
+.abpic:hover ~ .Oct5{
+    opacity: 0;
+}
+.octimg5-1:hover{
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+.octimg5-2:hover{
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+.octimg5-3:hover{
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+.octimg5-4:hover{
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+.octimg5-5:hover{
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+.octimg5-6:hover{
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+
+
+
+
+.card3{
+    position: absolute;
+    width: 50vw;
+    height: 70%;
+    left: 25%;
+    top: 235%;
+}
+.octimg6-1{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    left:5%;
+    top: 40%;
+    filter: grayscale(1);
+}
+.octimg6-2{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    left:5%;
+    top: 120%;
+    filter: grayscale(1);
+}
+.octimg6-3{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    left:55%;
+    top: 89%;
+    filter: grayscale(1);
+}
+.octimg6-4{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    left:55%;
+    top: 40%;
+    filter: grayscale(1);
+}
+.Oct6{
+    position: absolute;
+    top: 7%;
+    left: 40%;
+    color: white;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3vw;
+}
+.Oct6text{
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    color: white;
+    opacity: 0;
+    text-align: center;
+}
+.octimg6-1:hover{
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+.octimg6-2:hover{
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+.octimg6-3:hover{
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+.octimg6-4:hover{
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+.midpic:hover ~ .Oct6text{
+    opacity: 1;
+}
+.midpic:hover ~ .Oct6{
+    opacity: 0;
+}
+.Midautumn{
+    position: absolute;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1vw;
+    top: 163%;
+    left: 43%;
+}
+
+
+
+.card4{
+    position: absolute;
+    width: 50vw;
+    height: 70%;
+    left: 25%;
+    top: 365%;
+}
+.bd1{
+    position: absolute;
+    width: 30vw;
+    height: auto;
+    left:20%;
+    top: 40%;
+    filter: grayscale(1);
+}
+.bd2{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    left:5%;
+    top: 105%;
+    filter: grayscale(1);
+}
+.bd3{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    left:55%;
+    top: 105%;
+    filter: grayscale(1);
+}
+.bd4{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    left:5%;
+    top: 190%;
+    filter: grayscale(1);
+}
+.bd5{
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    left:55%;
+    top: 190%;
+    filter: grayscale(1);
+}
+.Oct9{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: white;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3vw;
+}
+.Oct9text{
+    position: absolute;
+    top: 10%;
+    left: 24%;
+    color: white;
+    opacity: 0;
+    text-align: center;
+}
+.BDshooting{
+    position: absolute;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1vw;
+    top: 265%;
+    left: 43%;
+}
+.bd1:hover{
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+.bd2:hover{
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+.bd3:hover{
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+.bd4:hover{
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+.bd5:hover{
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+.BDpic:hover ~ .Oct9text{
+    opacity: 1;
+}
+.BDpic:hover ~ .Oct9{
+    opacity: 0;
+}
+
+@keyframes trans{
+    0%{
+        transform: translateY(0) translateX(0) scale(1);
+    }
+    100%{
+        transform: translateY(-100%) translateX(10%) scale(1.2);
+    }
+}

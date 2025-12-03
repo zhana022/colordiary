@@ -1,23 +1,35 @@
 body{
-    background-color: black;
-    height: 1300px;
     background-image: url("trees.jpg");
   background-size: cover;          
   background-repeat: no-repeat;     
-  background-position: center;   
+  background-position: center;
+  min-height: 1800px;
+  padding-bottom: 200px; 
+}
+.introsentence{
+    position: absolute;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5.5vw;
+    left: 25%;
+    top: 35%;
+    color: rgb(0, 0, 0);
+    animation: title 5s infinite;
 }
 .parent{
     position: relative;
     width: 100vh;
     height: 100vh;
 }
-h1{
-    color: rgb(0, 0, 0);
+
+.Menu{
+    animation: title 5s infinite;
     text-decoration-style: wavy black;
-    font-size: 60px;
+    font-size: 4vw;
     position: absolute;
-    top: 10px;
-    left: 635px;
+    top: 115%;
+    left: 85%;
     font-family: "Macondo", cursive;
     font-weight: 400;
     font-style: normal;
@@ -26,24 +38,16 @@ ul{
     width: 300px;
     height: auto;
     color:black;
-    font-size: 35px;
-    font-family: "Playwrite DE SAS", cursive;
-    font-optical-sizing: auto;
-    font-weight: 200;
     font-style: normal;
     position: relative;
     left: 300px;
-}
-h3{
-    color: rgb(0, 0, 0);
-    position: relative;
-    left: 34vw;
+    top:100vh;
 }
 .calendar{
     background-color: white;
     border: 50px black inset;
     width: 570px;
-    height: 850px;
+    height: 780px;
     position: absolute;
     top: 250px;
     left: 27%;
@@ -89,3 +93,25 @@ h3{
     font-style: normal;
     font-size: 20px;
 }
+
+@keyframes title {
+    0%{
+        color: rgb(77, 76, 76);
+    }
+    50%{
+        color: rgb(166, 165, 165);
+    }
+    100%{
+        color: rgb(77, 76, 76);
+    }
+}
+
+/*0%{
+        color: black;
+    }
+    50%{
+        color: whitesmoke;
+    }
+    100%{
+        color: black;
+    }*/

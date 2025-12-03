@@ -1,116 +1,285 @@
 body{
     background-color: black;
     overflow-x: hidden;
+    overflow-y: auto;
+    height: auto;
+    min-height: 1800px;
+    border-bottom: 100px;
+}
+.arrowback{
+    position: absolute;
+    top: 7.5%;
+    left: 6%;
+    width: 3vw;
     height: auto;
 }
+
+.arrownext{
+    position: absolute;
+    width: 3vw;
+    height: auto;
+    left: 90%;
+    top: 7.5%;
+    transform: scaleX(-1);
+}
+.calendar{
+    position: absolute;
+    width: 3vw;
+    height: auto;
+    left: 12%;
+    top: 7.5%;
+}
+
+
 h1{
     color: white;
-    position: relative;
-    top: 10%;
-    text-align: center;
+    position: absolute;
+    top: 1.7vh;
+    left: 38%;
     font-family: "Macondo", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 .parent{
     position: relative;
     width: 100vw;
     height: 100vh;
 }
-a{
-    color: white;
-    position: relative;
-    left: 45vw;
-    text-decoration: none;
-}
+
+
+
+
+
+/*first 24*/
 .oct24image{
     position: absolute;
-    top: 3%;
-    left: 3%;
-    width: 30%;
+    top: 19%;
+    left: 2%;
+    width: 25%;
     height: auto;
     opacity: 1;
     border-radius: 5%;
+    filter: grayscale(1);
+    border: 0.2vw grey solid;
 }
-
-.oct24click{
+.oct24bg{
     position: absolute;
-    top: 3%;
-    left: 5%;
-    width: 30%;
-    height: 90%;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    z-index: -1;
-    opacity: 1;
-}
-.oct24click img{
-    width: 100%;
+    top: 19%;
+    left: 2%;
+    width: 25%;
     height: auto;
-    
+    opacity: 1;
+    border-radius: 5%;
+    z-index: -1;
+    transform: scale(0.8);
+}
+.oct24date{
+    position: absolute;
+    color: white;
+    font-size: 1.3vw;
+    top: 75%;
+    left: 13%;
+    z-index: -1;
 }
 .oct24image:hover{
     opacity: 0;
 }
 
 
+/*2nd 24*/
+.oct24-2img{
+    position: absolute;
+    top: 90%;
+    left: 6%;
+    width: 25%;
+    height: auto;
+    opacity: 1;
+    border-radius: 5%;
+    filter: grayscale(1);
+}
+
+
+/*3rd 24*/
+.NW{
+    position: absolute;
+    top: 160%;
+    left: 2%;
+    width: 25%;
+    height: auto;
+    opacity: 1;
+    border-radius: 5%;
+    filter: grayscale(1);
+    border: 0.2vw white solid;
+}
+.oct24-3pre{
+    color:white;
+    position: absolute;
+    top: 185%;
+    left: 6.5%;
+    font-size: 1vw;
+    z-index: -1;
+    border: 0.2vw white solid;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.oct24date3{
+    position: absolute;
+    color: white;
+    font-size: 1.3vw;
+    top: 215%;
+    left: 12%;
+    z-index: -1;
+}
+.NW:hover{
+    opacity: 0;
+}
+
+
+
+
+
+
+
+/*1st 29*/
 .oct29image{
     position: absolute;
-    top: 3%;
-    left: 35%;
-    width: 30%;
+    top: 19%;
+    left: 34%;
+    width: 25%;
     height: auto;
     border-radius: 5%;
+    filter: grayscale(1);
+    border: 0.2vw white solid;
+}
+.rehersal{
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .oct29click{
     color: white;
     background-color: black;
     position: absolute;
-    top: 20%;
-    left: 38%;
-    width: 25%;
+    top: 25%;
+    left: 36%;
+    width: 20%;
     opacity: 1;
     z-index: -1;
     border: 0.2vw white solid;
+    font-size: 1vw;
 }
+.oct29date{
+    position: absolute;
+    color: white;
+    font-size: 1.3vw;
+    top: 103%;
+    left: 33%;
+    z-index: -1;
+}
+
 .oct29image:hover{
     opacity: 0;
 }
 
-.oct31image{
+
+
+/*2nd 29*/
+.miumiu2{
     position: absolute;
-    top: 3%;
-    left: 67%;
-    width: 30%;
+    top: 90%;
+    left: 38%;
+    width: 25%;
     height: auto;
     opacity: 1;
     border-radius: 5%;
+    filter: grayscale(1);
+    border: 0.2vw white solid;
+}
+.oct29pre{
+    color:white;
+    position: absolute;
+    top: 115%;
+    left: 42%;
+    font-size: 1vw;
+    z-index: -1;
+    border: 0.2vw white solid;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.oct29date2{
+    position: absolute;
+    color: white;
+    font-size: 1.3vw;
+    top: 145%;
+    left: 47%;
+    z-index: -1;
+}
+.miumiu2:hover{
+    opacity: 0;
+}
+
+/*3rd 29*/
+.miumiu1{
+    position: absolute;
+    top: 160%;
+    left: 34%;
+    width: 25%;
+    height: auto;
+    opacity: 1;
+    border-radius: 5%;
+    filter: grayscale(1);
+}
+
+
+
+
+
+
+/*1st 31*/
+.oct31image{
+    position: absolute;
+    top: 19%;
+    left: 66%;
+    width: 25%;
+    height: auto;
+    opacity: 1;
+    border-radius: 5%;
+    filter: grayscale(1);
+    border: 0.2vw white solid;
 }
 .oct31back{
     position: absolute;
-    top: 5%;
-    left: 67%;
-    width: 28vw;
-    height: 65vh;
+    top: 36%;
+    left: 68%;
+    width: 20vw;
+    height: 30vh;
     opacity: 1;
     z-index: -1;
     display: block;
     border: 0.2vw white solid;
+    font-size: 1vw;
 }
-.oct31backimage{
+.oct31date{
     position: absolute;
-    top: 2vh;
-    left: 3%;
-    width: 15vw;
-    height: auto;
+    color: white;
+    font-size: 1.3vw;
+    top: 130%;
+    left: 35%;
+    z-index: -1;
 }
+
 .dune{
     position: absolute;
-    top: 40vh;
-    left: 0vw;
+    top: 19%;
+    left: 2.5vw;
     color: white;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .oct31image:hover{
@@ -118,10 +287,87 @@ a{
 }
 
 
-/*.oct24clickimage{
+
+
+/*2nd 31*/
+.HW{
     position: absolute;
-    top:3%;
-    left: 5%;
-    width: 30%;
+    top: 90%;
+    left: 70%;
+    width: 25%;
     height: auto;
-}/
+    opacity: 1;
+    border-radius: 5%;
+    filter: grayscale(1);
+    border: 0.2vw grey solid;
+}
+
+.HW2{
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    width: 25%;
+    height: auto;
+    opacity: 1;
+    border-radius: 5%;
+    z-index: -1;
+    transform: scale(0.8);
+}
+
+.oct31date2{
+    position: absolute;
+    color: white;
+    font-size: 1.3vw;
+    top: 146%;
+    left: 80%;
+    z-index: -1;
+}
+
+.HW:hover{
+    opacity: 0;
+}
+
+/*3rd 31*/
+.HW3{
+    position: absolute;
+    top: 160%;
+    left: 66%;
+    width: 25%;
+    height: auto;
+    opacity: 1;
+    border-radius: 5%;
+    filter: grayscale(1);
+    border: 0.2vw white solid;
+}
+.oct31-3pre{
+    color:white;
+    position: absolute;
+    top: 185%;
+    left: 70%;
+    font-size: 1vw;
+    z-index: -1;
+    border: 0.2vw white solid;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.oct31date3{
+    position: absolute;
+    color: white;
+    font-size: 1.3vw;
+    top: 215%;
+    left: 76%;
+    z-index: -1;
+}
+.HW3:hover{
+    opacity: 0;
+}
+
+
+
+/*keyframe*/
+@keyframes shift {
+    from {transform: translateY(100%)}
+    to {transform: translateY(0);}
+}
+

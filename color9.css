@@ -66,22 +66,34 @@ body{
 }
 .t27-1{
     opacity: 0;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .t27-2{
     opacity: 0;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .t27-3{
     opacity: 0;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .t27-4{
     opacity: 0;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
 .img27-1{
     position: absolute;
-    width: auto;
-    height: 30vh;
+    width: 12.2vw;
+    height: auto;
     top: 2vh;
     left: 1.5vw;
     box-shadow: -4px 5px 6px 3px rgba(50, 50, 50, 0.5);
@@ -89,8 +101,8 @@ body{
 }
 .img27-2{
     position: absolute;
-    width: auto;
-    height: 30vh;
+    width: 12.2vw;
+    height: auto;
     top: 2vh;
     left: 5.5vw;
     box-shadow: -4px 5px 6px 3px rgba(50, 50, 50, 0.5);
@@ -98,8 +110,8 @@ body{
 }
 .img27-3{
     position: absolute;
-    width: auto;
-    height: 30vh;
+    width: 12.2vw;
+    height: auto;
     top: 2vh;
     left: 10.5vw;
     box-shadow: -4px 5px 6px 3px rgba(50, 50, 50, 0.5);
@@ -107,8 +119,8 @@ body{
 }
 .img27-4{
     position: absolute;
-    width: auto;
-    height: 30vh;
+    width: 12.2vw;
+    height: auto;
     top: 2vh;
     left: 16.5vw;
     box-shadow: -4px 5px 6px 3px rgba(50, 50, 50, 0.5);
@@ -165,15 +177,15 @@ body{
     transform: translate(50%, 50%);
     font-size: 1.5vw;
     top: 18vh;
-    left: -5.5vw;
+    left: -3.5vw;
     animation: showings 5s forwards;
 }
 .nov27lab input:checked ~ .Nov27 .t27-2{
     position: absolute;
     transform: translate(50%, 50%);
     font-size: 1.5vw;
-    top: 14vh;
-    left: 7.5vw;
+    top: 13vh;
+    left: 10vw;
     animation: showings 5s forwards;
 }
 .nov27lab input:checked ~ .Nov27 .t27-3{
@@ -181,7 +193,7 @@ body{
     transform: translate(50%, 50%);
     font-size: 1.5vw;
     top: 16vh;
-    left: 19.7vw;
+    left: 23vw;
     animation: showings 5s forwards;
 }
 .nov27lab input:checked ~ .Nov27 .t27-4{
@@ -189,7 +201,7 @@ body{
     transform: translate(50%, 50%);
     font-size: 1.5vw;
     top: 20vh;
-    left: 33.5vw;
+    left: 36vw;
     animation: showings 5s forwards;
 }
 
@@ -309,18 +321,27 @@ body{
 }
 .t28-1{
     opacity: 0;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .t28-2{
     opacity: 0;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .t28-3{
     opacity: 0;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .img28-1{
     position: absolute;
-    width: auto;
-    height: 30vh;
+    width: 12.6vw;
+    height: auto;
     top: 2vh;
     left: 1.5vw;
     box-shadow: -4px 5px 6px 3px rgba(50, 50, 50, 0.5);
@@ -328,8 +349,8 @@ body{
 }
 .img28-2{
     position: absolute;
-    width: auto;
-    height: 30vh;
+    width: 12.6vw;
+    height: auto;
     top: 2vh;
     left: 8.5vw;
     box-shadow: -4px 5px 6px 3px rgba(50, 50, 50, 0.5);
@@ -337,8 +358,8 @@ body{
 }
 .img28-3{
     position: absolute;
-    width: auto;
-    height: 30vh;
+    width: 12.6vw;
+    height: auto;
     top: 2vh;
     left: 15.5vw;
     box-shadow: -4px 5px 6px 3px rgba(50, 50, 50, 0.5);
@@ -391,7 +412,7 @@ body{
     transform: translate(50%, 50%);
     font-size: 1.5vw;
     top: 15vh;
-    left: -33vw;
+    left: -32vw;
     animation: showings 5s forwards;
 }
 .nov28lab input:checked ~ .Nov28 .t28-2{
@@ -399,7 +420,7 @@ body{
     transform: translate(50%, 50%);
     font-size: 1.5vw;
     top: 14vh;
-    left: -16vw;
+    left: -14vw;
     animation: showings 5s forwards;
 }
 .nov28lab input:checked ~ .Nov28 .t28-3{
@@ -407,9 +428,19 @@ body{
     transform: translate(50%, 50%);
     font-size: 1vw;
     top: 10vh;
-    left: -2.5vw;
+    left: 1vw;
     animation: showings 5s forwards;
 }
+
+.nov28lab input:checked ~ .nov29lab {
+    animation: hiddings 0.3s forwards;
+}
+.nov28lab input:not(:checked) ~ .nov29lab {
+    animation: showings 0.3s forwards;
+}
+
+
+
 
 @keyframes imgmove2-1 {
     0%{
@@ -486,22 +517,258 @@ body{
 
 .Nov29{
     position: absolute;
-    background-color: white;
     width: 30vw;
     height: 35vh;
     left: 20%;
     top: 60%;
 }
+.whitebox3{
+    position: absolute;
+    background-color: white;
+    width: 30vw;
+    height: 35vh;
+    left: 0%;
+    top: 0%;
+}
+
+.text29{
+    position: absolute;
+    left: 2vw;
+    top: -15vh;
+}
+.t29-1{
+    opacity: 0;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.t29-2{
+    opacity: 0;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.t29-3{
+    opacity: 0;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.t29-4{
+    opacity: 0;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 
 
+.img29-1{
+    position: absolute;
+    width: 12.1vw;
+    height: auto;
+    top: 2vh;
+    left: 1.5vw;
+    box-shadow: -4px 5px 6px 3px rgba(50, 50, 50, 0.5);
+    filter: grayscale(1);
+}
+.img29-2{
+    position: absolute;
+    width: 12.1vw;
+    height: auto;
+    top: 2vh;
+    left: 5.5vw;
+    box-shadow: -4px 5px 6px 3px rgba(50, 50, 50, 0.5);
+    filter: grayscale(1);
+}
+.img29-3{
+    position: absolute;
+    width: 12.1vw;
+    height: auto;
+    top: 2vh;
+    left: 10.5vw;
+    box-shadow: -4px 5px 6px 3px rgba(50, 50, 50, 0.5);
+    filter: grayscale(1);
+}
+.img29-4{
+    position: absolute;
+    width: 12.1vw;
+    height: auto;
+    top: 2vh;
+    left: 16.5vw;
+    box-shadow: -4px 5px 6px 3px rgba(50, 50, 50, 0.5);
+    filter: grayscale(1);
+}
+.nov29lab input:checked ~ .Nov29 .whitebox3{
+    animation: move3 1s forwards;
+}
+.nov29lab input:not(:checked) ~ .Nov29 .whitebox3{
+    animation: move3back 1s forwards;
+}
+
+.nov29lab input:checked ~ .Nov29 .img29-1 {
+    animation: imgmove3-1 1s forwards;
+}
+.nov29lab input:not(:checked) ~ .Nov29 .img29-1 {
+    animation: imgmove3-1back 1s forwards;
+}
+.nov29lab input:checked ~ .Nov29 .img29-1:hover{
+    opacity: 0;
+}
+.nov29lab input:checked ~ .Nov29 .img29-2 {
+    animation: imgmove3-2 1s forwards;
+}
+.nov29lab input:not(:checked) ~ .Nov29 .img29-2 {
+    animation: imgmove3-2back 1s forwards;
+}
+.nov29lab input:checked ~ .Nov29 .img29-2:hover{
+    opacity: 0;
+}
+.nov29lab input:checked ~ .Nov29 .img29-3 {
+    animation: imgmove3-3 1s forwards;
+}
+.nov29lab input:not(:checked) ~ .Nov29 .img29-3 {
+    animation: imgmove3-3back 1s forwards;
+}
+.nov29lab input:checked ~ .Nov29 .img29-3:hover{
+    opacity: 0;
+}
+.nov29lab input:checked ~ .Nov29 .img29-4 {
+    animation: imgmove3-4 1s forwards;
+}
+.nov29lab input:not(:checked) ~ .Nov29 .img29-4 {
+    animation: imgmove3-4back 1s forwards;
+}
+.nov29lab input:checked ~ .Nov29 .img29-4:hover{
+    opacity: 0;
+}
+
+
+.nov29lab input:checked ~ .Nov29 .t29-1{
+    position: absolute;
+    transform: translate(50%, 50%);
+    font-size: 1vw;
+    top: 3vh;
+    left: -2vw;
+    animation: showings 5s forwards;
+}
+.nov29lab input:checked ~ .Nov29 .t29-2{
+    position: absolute;
+    transform: translate(50%, 50%);
+    font-size: 1vw;
+    top: 5vh;
+    left: 14vw;
+    animation: showings 5s forwards;
+}
+.nov29lab input:checked ~ .Nov29 .t29-3{
+    position: absolute;
+    transform: translate(50%, 50%);
+    font-size: 1vw;
+    top: 5vh;
+    left: 27vw;
+    animation: showings 5s forwards;
+}
+.nov29lab input:checked ~ .Nov29 .t29-4{
+    position: absolute;
+    transform: translate(50%, 50%);
+    font-size: 1vw;
+    top: 3vh;
+    left: 39vw;
+    animation: showings 5s forwards;
+}
+
+
+.nov29lab input:checked ~ .nov30lab {
+    animation: hiddings 0.3s forwards;
+}
+.nov29lab input:not(:checked) ~ .nov30lab {
+    animation: showings 0.3s forwards;
+}
 
 
 
+@keyframes imgmove3-1 {
+    0%{
+        transform: translate(0,0) scale(1);
+    }
+    100%{
+        left: 2.5vw;
+        top: -15vh;
+        filter: grayscale(0);
+    }
+}
+@keyframes imgmove3-1back {
+    0%{
+        left: 2.5vw;
+        top: -15vh;
+        filter: grayscale(0);
+    }
+    100%{
+        transform: translate(0,0) scale(1);
+    }
+}
+@keyframes imgmove3-2 {
+    0%{
+        transform: translate(0,0) scale(1);
+    }
+    100%{
+        left: 16vw;
+        top: -15vh;
+        filter: grayscale(0);
+    }
+}
+@keyframes imgmove3-2back {
+    0%{
+        left: 16vw;
+        top: -15vh;
+        filter: grayscale(0);
+    }
+    100%{
+        transform: translate(0,0) scale(1);
+    }
+}
 
+@keyframes imgmove3-3 {
+    0%{
+        transform: translate(0,0) scale(1);
+    }
+    100%{
+        left: 29.5vw;
+        top: -15vh;
+        filter: grayscale(0);
+    }
+}
+@keyframes imgmove3-3back {
+    0%{
+        left: 29.5vw;
+        top: -15vh;
+        filter: grayscale(0);
+    }
+    100%{
+        transform: translate(0,0) scale(1);
+    }
+}
 
-
-
+@keyframes imgmove3-4 {
+    0%{
+        transform: translate(0,0) scale(1);
+    }
+    100%{
+        left: 43.5vw;
+        top: -15vh;
+        filter: grayscale(0);
+    }
+}
+@keyframes imgmove3-4back {
+    0%{
+        left: 43.5vw;
+        top: -15vh;
+        filter: grayscale(0);
+    }
+    100%{
+        transform: translate(0,0) scale(1);
+    }
+}
 
 
 
@@ -512,24 +779,248 @@ body{
 
 .Nov30{
     position: absolute;
-    background-color: white;
     width: 30vw;
     height: 35vh;
     left: 52%;
     top: 60%;
 }
 
+.whitebox4{
+    position: absolute;
+    background-color: white;
+    width: 30vw;
+    height: 35vh;
+    left: 0%;
+    top: 0%;
+}
+.text30{
+    position: absolute;
+    left: 2vw;
+    top: 10vh;
+}
+.t30-1{
+    opacity: 0;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.t30-2{
+    opacity: 0;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.t30-3{
+    opacity: 0;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.t30-4{
+    opacity: 0;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.img30-1{
+    position: absolute;
+    width: 12.1vw;
+    height: auto;
+    top: 2vh;
+    left: 1.5vw;
+    box-shadow: -4px 5px 6px 3px rgba(50, 50, 50, 0.5);
+    filter: grayscale(1);
+}
+.img30-2{
+    position: absolute;
+    width: 12.1vw;
+    height: auto;
+    top: 2vh;
+    left: 5.5vw;
+    box-shadow: -4px 5px 6px 3px rgba(50, 50, 50, 0.5);
+    filter: grayscale(1);
+}
+.img30-3{
+    position: absolute;
+    width: 12.1vw;
+    height: auto;
+    top: 2vh;
+    left: 10.5vw;
+    box-shadow: -4px 5px 6px 3px rgba(50, 50, 50, 0.5);
+    filter: grayscale(1);
+}
+.img30-4{
+    position: absolute;
+    width: 12.1vw;
+    height: auto;
+    top: 2vh;
+    left: 16.5vw;
+    box-shadow: -4px 5px 6px 3px rgba(50, 50, 50, 0.5);
+    filter: grayscale(1);
+}
+
+
+.nov30lab input:checked ~ .Nov30 .whitebox4{
+    animation: move4 1s forwards;
+}
+.nov30lab input:not(:checked) ~ .Nov30 .whitebox4{
+    animation: move4back 1s forwards;
+}
+
+.nov30lab input:checked ~ .Nov30 .img30-1 {
+    animation: imgmove4-1 1s forwards;
+}
+.nov30lab input:not(:checked) ~ .Nov30 .img30-1 {
+    animation: imgmove4-1back 1s forwards;
+}
+.nov30lab input:checked ~ .Nov30 .img30-1:hover{
+    opacity: 0;
+}
+.nov30lab input:checked ~ .Nov30 .img30-2 {
+    animation: imgmove4-2 1s forwards;
+}
+.nov30lab input:not(:checked) ~ .Nov30 .img30-2 {
+    animation: imgmove4-2back 1s forwards;
+}
+.nov30lab input:checked ~ .Nov30 .img30-2:hover{
+    opacity: 0;
+}
+.nov30lab input:checked ~ .Nov30 .img30-3 {
+    animation: imgmove4-3 1s forwards;
+}
+.nov30lab input:not(:checked) ~ .Nov30 .img30-3 {
+    animation: imgmove4-3back 1s forwards;
+}
+.nov30lab input:checked ~ .Nov30 .img30-3:hover{
+    opacity: 0;
+}
+.nov30lab input:checked ~ .Nov30 .img30-4 {
+    animation: imgmove4-4 1s forwards;
+}
+.nov30lab input:not(:checked) ~ .Nov30 .img30-4 {
+    animation: imgmove4-4back 1s forwards;
+}
+.nov30lab input:checked ~ .Nov30 .img30-4:hover{
+    opacity: 0;
+}
 
 
 
+.nov30lab input:checked ~ .Nov30 .t30-1{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 1vw;
+    top: -15vh;
+    left: -21vw;
+    animation: showings 5s forwards;
+}
+.nov30lab input:checked ~ .Nov30 .t30-2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 1vw;
+    top: -15vh;
+    left: -9vw;
+    animation: showings 5s forwards;
+}
+.nov30lab input:checked ~ .Nov30 .t30-3{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 1vw;
+    top: -15vh;
+    left: 4vw;
+    animation: showings 5s forwards;
+}
+.nov30lab input:checked ~ .Nov30 .t30-4{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 1vw;
+    top: -15vh;
+    left: 16vw;
+    animation: showings 5s forwards;
+}
 
+@keyframes imgmove4-1 {
+    0%{
+        transform: translate(0,0) scale(1);
+    }
+    100%{
+        left: -26vw;
+        top: -20vh;
+        filter: grayscale(0);
+    }
+}
+@keyframes imgmove4-1back {
+    0%{
+        left: -26vw;
+        top: -20vh;
+        filter: grayscale(0);
+    }
+    100%{
+        transform: translate(0,0) scale(1);
+    }
+}
+@keyframes imgmove4-2 {
+    0%{
+        transform: translate(0,0) scale(1);
+    }
+    100%{
+        left: -13vw;
+        top: -20vh;
+        filter: grayscale(0);
+    }
+}
+@keyframes imgmove4-2back {
+    0%{
+        left: -13vw;
+        top: -20vh;
+        filter: grayscale(0);
+    }
+    100%{
+        transform: translate(0,0) scale(1);
+    }
+}
+@keyframes imgmove4-3 {
+    0%{
+        transform: translate(0,0) scale(1);
+    }
+    100%{
+        left: 0vw;
+        top: -20vh;
+        filter: grayscale(0);
+    }
+}
+@keyframes imgmove4-3back {
+    0%{
+        left: 0vw;
+        top: -20vh;
+        filter: grayscale(0);
+    }
+    100%{
+        transform: translate(0,0) scale(1);
+    }
+}
 
-
-
-
-
-
-
+@keyframes imgmove4-4 {
+    0%{
+        transform: translate(0,0) scale(1);
+    }
+    100%{
+        left: 13vw;
+        top: -20vh;
+        filter: grayscale(0);
+    }
+}
+@keyframes imgmove4-4back {
+    0%{
+        left: 13vw;
+        top: -20vh;
+        filter: grayscale(0);
+    }
+    100%{
+        transform: translate(0,0) scale(1);
+    }
+}
 
 
 @keyframes move1{
@@ -571,28 +1062,49 @@ body{
         transform: translate(0,0) scaleY(1) scaleX(1);
     }
 }
-
-
-
-
-@keyframes corner28 {
+@keyframes move3{
     0%{
-        transform: translate(0,0) scale(1);
+        transform: translate(0,0) scaleY(1) scaleX(1);
     }
     100%{
-        transform: translate(30%,-30%) scale(0.6);
-        left: 60%;
+        transform: translate(50%, -50%) scaleY(1.5) scaleX(1.8);
+        left: -1vw;
+        top: -4vh;
     }
 }
-@keyframes corner28back {
+@keyframes move3back{
     0%{
-        transform: translate(30%,-30%) scale(0.6);
-        left: 60%;
+        transform: translate(50%, -50%) scaleY(1.5) scaleX(1.8);
+        left: -1vw;
+        top: -4vh;
     }
     100%{
-        transform: translate(0,0) scale(1);
+        transform: translate(0,0) scaleY(1) scaleX(1);
     }
 }
+@keyframes move4{
+    0%{
+        transform: translate(0,0) scaleY(1) scaleX(1);
+    }
+    100%{
+        transform: translate(-50%, -50%) scaleY(1.5) scaleX(1.8);
+        left: -1vw;
+        top: -4vh;
+    }
+}
+@keyframes move4back{
+    0%{
+        transform: translate(-50%, -50%) scaleY(1.5) scaleX(1.8);
+        left: -1vw;
+        top: -4vh;
+    }
+    100%{
+        transform: translate(0,0) scaleY(1) scaleX(1);
+    }
+}
+
+
+
 @keyframes showings {
     0%{
         opacity: 0;
@@ -607,5 +1119,116 @@ body{
     }
     100%{
         opacity: 0;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .topic{
+        font-size: 25px;
+        left: 0vw;
+        top: 0%;
+    }
+    .arrowback{
+        width: 20px;
+        height: auto;
+        top: 3%;
+    }
+    .arrownext{
+        width: 20px;
+        height: auto;
+        top: 3%;
+    }
+    .calendar{
+        width: 20px;
+        height: auto;
+        top: 3%;
+    }
+    img{
+        width: 20vw;
+        height: auto;
+    }
+
+    .whitebox1, .whitebox2, .whitebox3, .whitebox4{
+        width: 90vw;
+        height: 40vw;
+        left: -15vw;
+    }
+    .Nov27{
+        top: 15vw;
+    }
+    .img27-1, .img27-2, .img27-3, .img27-4,
+    .img28-1, .img28-2, .img28-3,
+    .img29-1, .img29-2, .img29-3, .img29-4,
+    .img30-1, .img30-2, .img30-3, .img30-4{
+        width: 23vw;
+    }
+
+    .img27-1{
+        left: -13vw;
+    }
+    .img27-2{
+        left: 7vw;
+    }
+    .img27-3{
+        left: 27vw;
+    }
+    .img27-4{
+        left: 47vw;
+    }
+    .img28-1{
+        left: -13vw;
+    }
+    .img28-2{
+        left: 10vw;
+    }
+    .img28-3{
+        left: 33vw;
+    }
+    .img29-1{
+        left: -13vw;
+    }
+    .img29-2{
+        left: 7vw;
+    }
+    .img29-3{
+        left: 27vw;
+    }.img29-4{
+        left: 47vw;
+    }
+     .img30-1{
+        left: -13vw;
+    }
+    .img30-2{
+        left: 7vw;
+    }
+    .img30-3{
+        left: 27vw;
+    }.img30-4{
+        left: 47vw;
+    }
+
+    .Nov28{
+        top: 65vw;
+        left: 20vw;
+    }
+
+
+    .Nov29{
+        top: 115vw;
+        left: 20vw;
+    }
+
+
+
+    .Nov30{
+        top: 165vw;
+        left: 20vw;
+    }
+
+    img:hover{
+        filter: grayscale(0);
     }
 }

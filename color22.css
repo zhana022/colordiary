@@ -7,7 +7,7 @@ body{
     width: auto;
     position: relative;
     top: 1.9vh;
-    left: 37%;
+    left: 35%;
     height: 4%;
     color: white;
     font-size: 3.5vw;
@@ -87,21 +87,21 @@ pre{
 .All17{
     position: relative;
     display: flex;
-    width: 35vw;
+    width: 30vw;
     left: 5%;
     top: 5%;
     align-items: flex-start;
     z-index: 3;
 }
 .img17{
-    width: 60vh;
+    width: 30vw;
     border: 20px rgb(255, 255, 255) solid;
 }
 .img17color{
     position: absolute;
     left: 0%;
     top: 0%;
-    width: 60vh;
+    width: 30vw;
     height: auto;
     border: 20px rgb(255, 255, 255) solid;
     opacity: 0;
@@ -110,10 +110,10 @@ pre{
     position: absolute;
     background-color: white;
     color: black;
-    left: 72.5vh;
+    left: 37vw;
     top: 0%;
     width: 20vw;
-    height: 15vh;
+    height: 8vw;
     border: 2px rgb(131, 131, 131) solid;
 }
 
@@ -122,7 +122,7 @@ pre{
     position: absolute;
     left: 45vw;
     top: 25vh;
-    font-size: 4vh;
+    font-size: 2vw;
     opacity: 1;
 }
 .block17{
@@ -130,7 +130,7 @@ pre{
     position: absolute;
     left: 45vw;
     top: 5%;
-    width: 40vw;
+    width: 30vw;
     height: 40vh;
     opacity: 0;
 }
@@ -139,8 +139,8 @@ pre{
     position: absolute;
     left: 0%;
     top: 0%;
-    width: 63vh;
-    height: 63vh;
+    width: 33vw;
+    height: 33vw;
     opacity: 0;
 }
 .sug1{
@@ -182,20 +182,20 @@ pre{
 .All18{
     position: relative;
     display: flex;
-    width: 35vw;
+    width: 30vw;
     left: 60%;
     top: 5%;
     align-items: flex-start;
 }
 .img18{
-    width: 60vh;
+    width: 30vw;
     border: 20px rgb(255, 255, 255) solid;
 }
 .img18color{
     position: absolute;
     left: 0%;
     top: 0%;
-    width: 60vh;
+    width: 30vw;
     height: auto;
     border: 20px rgb(255, 255, 255) solid;
     opacity: 0;
@@ -207,7 +207,7 @@ pre{
     left: 50.3vh;
     top: 20.1%;
     width: 20vw;
-    height: 15vh;
+    height: 8vw;
     border: 2px rgb(131, 131, 131) solid;
 }
 
@@ -216,7 +216,7 @@ pre{
     position: absolute;
     left: 10vw;
     top: 28%;
-    font-size: 4vh;
+    font-size: 2vw;
     opacity: 1;
 }
 .back18{
@@ -224,8 +224,8 @@ pre{
     position: absolute;
     left: 0%;
     top: 0%;
-    width: 65vh;
-    height: 65vh;
+    width: 33vw;
+    height: 33vw;
     opacity: 0;
 }
 .sug2{
@@ -260,7 +260,6 @@ pre{
 
 
 .All19{
-    background-color: aqua;
     position: relative;
     display: flex;
     width: 35vw;
@@ -270,14 +269,14 @@ pre{
     z-index: 50;
 }
 .img19{
-    width: 60vh;
+    width: 30vw;
     border: 20px rgb(255, 255, 255) solid;
 }
 .img19color{
     position: absolute;
     left: 0%;
     top: 0%;
-    width: 60vh;
+    width: 30vw;
     height: auto;
     border: 20px rgb(255, 255, 255) solid;
     opacity: 0;
@@ -286,11 +285,12 @@ pre{
     position: absolute;
     background-color: white;
     color: black;
-    left: 72.5vh;
+    left: 37vw;
     top: 40.3%;
     width: 20vw;
-    height: 15vh;
+    height: 8vw;
     border: 2px rgb(131, 131, 131) solid;
+    z-index: 10;
 }
 
 .hidden19{
@@ -298,7 +298,7 @@ pre{
     position: absolute;
     left: 45vw;
     top: 48%;
-    font-size: 4vh;
+    font-size: 2vw;
     opacity: 1;
 }
 .back19{
@@ -306,8 +306,8 @@ pre{
     position: absolute;
     left: 10;
     top: 0%;
-    width: 65vh;
-    height: 65vh;
+    width: 33vw;
+    height: 33vw;
     opacity: 0;
 }
 .sug3{
@@ -349,14 +349,14 @@ pre{
     align-items: flex-start;
 }
 .img20{
-    width: 60vh;
+    width: 30vw;
     border: 20px rgb(255, 255, 255) solid;
 }
 .img20color{
     position: absolute;
     left: 0%;
     top: 0%;
-    width: 60vh;
+    width: 30vw;
     height: auto;
     border: 20px rgb(255, 255, 255) solid;
     opacity: 0;
@@ -368,7 +368,7 @@ pre{
     left: 50.3vh;
     top: 60.4%;
     width: 20vw;
-    height: 15vh;
+    height: 8vw;
     border: 2px rgb(131, 131, 131) solid;
 }
 
@@ -377,7 +377,7 @@ pre{
     position: absolute;
     left: 0vw;
     top: 70%;
-    font-size: 4vh;
+    font-size: 2vw;
     opacity: 1;
 }
 .back20{
@@ -385,8 +385,8 @@ pre{
     position: absolute;
     left: 0%;
     top: 0%;
-    width: 65vh;
-    height: 65vh;
+    width: 33vw;
+    height: 33vw;
     opacity: 0;
 }
 .sug4{
@@ -430,14 +430,14 @@ pre{
     align-items: flex-start;
 }
 .img21{
-    width: 60vh;
+    width: 30vw;
     border: 20px rgb(255, 255, 255) solid;
 }
 .img21color{
     position: absolute;
     left: 0%;
     top: 0%;
-    width: 60vh;
+    width: 30vw;
     height: auto;
     border: 20px rgb(255, 255, 255) solid;
     opacity: 0;
@@ -446,10 +446,10 @@ pre{
     position: absolute;
     background-color: white;
     color: black;
-    left: 72.5vh;
+    left: 37vw;
     top: 80.5%;
     width: 20vw;
-    height: 15vh;
+    height: 8vw;
     border: 2px rgb(131, 131, 131) solid;
 }
 
@@ -458,7 +458,7 @@ pre{
     position: absolute;
     left: 45vw;
     top: 87%;
-    font-size: 4vh;
+    font-size: 2vw;
     opacity: 1;
 }
 .back21{
@@ -466,8 +466,8 @@ pre{
     position: absolute;
     left: 0%;
     top: 0%;
-    width: 65vh;
-    height: 65vh;
+    width: 33vw;
+    height: 33vw;
     opacity: 0;
 }
 .sug5{
@@ -506,4 +506,84 @@ pre{
     100%{opacity: 1;}
 }
 
+@media only screen and (max-width: 600px) {
+    .topic{
+        font-size: 25px;
+        left: 33%;
+        top: 20%;
+    }
+    .arrowback{
+        width: 20px;
+        height: auto;
+        top: 3%;
+    }
+    .arrownext{
+        width: 20px;
+        height: auto;
+        top: 3%;
+    }
+    .calendar{
+        width: 20px;
+        height: auto;
+        top: 3%;
+    }
+    .phrase{
+        font-size: 12px;
+        left: 0%;
+    }
+    .date{
+        font-size:15px;
+    }
+
+    .All17, .All18, .All19, .All20, .All21{
+        left: 5%;
+        width: 80vw;
+    }
+    .Sep17, .Sep18, .Sep19, .Sep20, .Sep21{
+        left: 60%;
+        width: 30vw;
+        height: 15vw;
+        font-size: 15px;
+        z-index: 200;
+    }
+    .back17, .back18, .back19, .back20, .back21{
+        width: 190px;
+        left: 0%;
+        height: 190px;
+    }
+    .sug1, .sug2, .sug3, .sug4, .sug5{
+        font-size: 20px;
+        left: 15%;
+        top: 35%;
+    }
+    .hidden17{
+        font-size: 13px;
+        left: 52%;
+        top: 10%;
+    }
+    .hidden18{
+        font-size: 13px;
+        left: 52%;
+        top: 30%;
+        z-index: 100;
+    }
+    .hidden19{
+        font-size: 13px;
+        left: 52%;
+        top: 51%;
+        z-index: 100;
+    }
+    .hidden20{
+        font-size: 13px;
+        left: 52%;
+        top: 72%;
+        z-index: 100;
+    }
+    .hidden21{
+        font-size: 13px;
+        left: 52%;
+        top: 90%;
+        z-index: 100;
+    }
+}
 

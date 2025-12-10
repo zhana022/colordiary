@@ -3,8 +3,6 @@ body{
     overflow-x: hidden;
     overflow-y: auto;
     height: auto;
-    min-height: 1800px;
-    border-bottom: 100px;
 }
 .arrowback{
     position: absolute;
@@ -61,7 +59,6 @@ h1{
     opacity: 1;
     border-radius: 5%;
     filter: grayscale(1);
-    border: 0.2vw grey solid;
 }
 .oct24bg{
     position: absolute;
@@ -110,7 +107,6 @@ h1{
     opacity: 1;
     border-radius: 5%;
     filter: grayscale(1);
-    border: 0.2vw white solid;
 }
 .oct24-3pre{
     color:white;
@@ -119,7 +115,6 @@ h1{
     left: 6.5%;
     font-size: 1vw;
     z-index: -1;
-    border: 0.2vw white solid;
     font-family: "Macondo", cursive;
     font-weight: 400;
     font-style: normal;
@@ -151,7 +146,6 @@ h1{
     height: auto;
     border-radius: 5%;
     filter: grayscale(1);
-    border: 0.2vw white solid;
 }
 .rehersal{
     font-family: "Macondo", cursive;
@@ -168,7 +162,6 @@ h1{
     width: 20%;
     opacity: 1;
     z-index: -1;
-    border: 0.2vw white solid;
     font-size: 1vw;
 }
 .oct29date{
@@ -196,7 +189,6 @@ h1{
     opacity: 1;
     border-radius: 5%;
     filter: grayscale(1);
-    border: 0.2vw white solid;
 }
 .oct29pre{
     color:white;
@@ -205,7 +197,6 @@ h1{
     left: 42%;
     font-size: 1vw;
     z-index: -1;
-    border: 0.2vw white solid;
     font-family: "Macondo", cursive;
     font-weight: 400;
     font-style: normal;
@@ -249,18 +240,17 @@ h1{
     opacity: 1;
     border-radius: 5%;
     filter: grayscale(1);
-    border: 0.2vw white solid;
+    
 }
 .oct31back{
     position: absolute;
-    top: 36%;
+    top: 33%;
     left: 68%;
     width: 20vw;
-    height: 30vh;
+    height: 200px;
     opacity: 1;
     z-index: -1;
     display: block;
-    border: 0.2vw white solid;
     font-size: 1vw;
 }
 .oct31date{
@@ -299,7 +289,6 @@ h1{
     opacity: 1;
     border-radius: 5%;
     filter: grayscale(1);
-    border: 0.2vw grey solid;
 }
 
 .HW2{
@@ -337,7 +326,6 @@ h1{
     opacity: 1;
     border-radius: 5%;
     filter: grayscale(1);
-    border: 0.2vw white solid;
 }
 .oct31-3pre{
     color:white;
@@ -346,7 +334,6 @@ h1{
     left: 70%;
     font-size: 1vw;
     z-index: -1;
-    border: 0.2vw white solid;
     font-family: "Macondo", cursive;
     font-weight: 400;
     font-style: normal;
@@ -369,5 +356,159 @@ h1{
 @keyframes shift {
     from {transform: translateY(100%)}
     to {transform: translateY(0);}
+}
+
+
+@media only screen and (max-width: 700px) {
+    body{
+        height: auto;
+    }
+    .topic{
+        font-size: 25px;
+        left: 33%;
+        top: 0%;
+    }
+    .arrowback{
+        width: 20px;
+        height: auto;
+        top: 3%;
+    }
+    .arrownext{
+        width: 20px;
+        height: auto;
+        top: 3%;
+    }
+    .calendar{
+        width: 20px;
+        height: auto;
+        top: 3%;
+    }
+    .oct24image{
+        width: 40vw;
+        top: 15vw;
+    }
+    .oct24bg{
+        width: 35vw;
+        top: 18vw;
+    }
+    .oct24date{
+        font-size: 3vw;
+        top: 70vw;
+    }
+
+    .oct24-2img{
+        width: 40vw;
+        top: 80vw;
+        left: 2vw;
+    }
+    .NW{
+        width: 40vw;
+        top: 145vw;
+        left: 2vw;
+    }
+    .oct24-3pre{
+        font-size: 2vw;
+        top: 160vw;
+    }
+    .oct24date3{
+        font-size: 3vw;
+        top: 200vw;
+    }
+
+
+
+    .oct29image{
+        width: 40vw;
+        top: 215vw;
+        left: 30vw;
+    }
+    .rehersal{
+        font-size: 2vw;
+    }
+    .oct29click{
+        width: 35vw;
+        top: 216vw;
+        left: 31vw;
+    }
+    .oct29date{
+        font-size: 3vw;
+        top: 100vw;
+    }
+
+    .miumiu2{
+        width: 40vw;
+        top: 280vw;
+        left: 30vw;
+    }
+    .oct29pre{
+        font-size: 2vw;
+        top: 290vw;
+        left: 35vw;
+    }
+    .oct29date2{
+        font-size: 3vw;
+        top: 405vw;
+    }
+    .miumiu1{
+        width: 40vw;
+        top: 350vw;
+        left: 31vw;
+    }
+
+    .oct31image{
+        width: 40vw;
+        top: 420vw;
+        left: 55vw;
+    }
+    .oct31back{
+        width: 30vw;
+        height: 30vw;
+        left: 59vw;
+        top: 425vw;
+        font-size: 2vw;
+    }
+    .dune{
+        top: 5vw;
+    }
+    .oct31date{
+        font-size: 3vw;
+        left: 8vw;
+    }
+
+
+    .HW{
+        width: 40vw;
+        top: 490vw;
+        left: 55vw;
+    }
+
+    .HW2{
+        width: 40vw;
+        top: 490vw;
+        left: 55vw;
+    }
+    .oct31date2{
+        font-size: 3vw;
+        top: 545vw;
+        left: 68vw;
+    }
+
+
+    .HW3{
+        width: 40vw;
+        top: 560vw;
+        left: 55vw;
+    }
+    .oct31-3pre{
+        font-size: 2vw;
+        top: 580vw;
+        left: 60vw;
+    }
+    .oct31date3{
+        font-size: 3vw;
+        top: 600vw;
+        left: 68vw;
+    }
+
 }
 

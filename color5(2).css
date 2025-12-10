@@ -1,8 +1,7 @@
 body{
     overflow-x: hidden;
     position: relative;
-    padding-bottom: 200px;
-    min-height: 510vh;
+    width: auto;
 }
 
 
@@ -19,7 +18,7 @@ h1{
 .arrownext{
     position: absolute;
     left: 90.5%;
-    top: 1.2%;
+    top: 7vh;
     width: 3vw;
     height: auto;
     transform: scaleX(-1);
@@ -28,7 +27,7 @@ h1{
 .arrowback{
     position: absolute;
     left: 6%;
-    top: 1.2%;
+    top: 7vh;
     width: 3vw;
     height: auto;
     filter: invert(1);
@@ -36,7 +35,7 @@ h1{
 .calendar{
     position: absolute;
     left: 12%;
-    top: 1.2%;
+    top: 7vh;
     width: 3vw;
     height: auto;
     filter: invert(1);
@@ -54,7 +53,7 @@ h1{
     left: 5%;
     top: 20vh;
     width:90% ;
-    height: 2700px;
+    height: auto;
 }
 img{
     width: 95%;
@@ -62,32 +61,14 @@ img{
 }
 
 
-.pall1{
-    border: 1vh black solid;
-}
-.pall2{
-    border: 1vh black solid;
-}
 
-.kristin{
-    border: 1vh black solid;
-}
-.naomi{
-    border: 1vh black solid;
-}
-.pallo{
-    border: 1vh black solid;
-}
-.olivia{
-    border: 1vh black solid;
-}
 
 .tinahi{
     position: absolute;
     opacity: 1;
     width: 30%;
     height: auto;
-    top: 35%;
+    top: 65vw;
     left: 10%;
     z-index: -1;
 }
@@ -96,7 +77,7 @@ img{
     opacity: 1;
     width: 30%;
     height: auto;
-    top: 45%;
+    top: 85vw;
     left: 10%;
     z-index: -1;
 }
@@ -105,7 +86,7 @@ img{
     opacity: 1;
     width: 25%;
     height: auto;
-    top: 31%;
+    top: 55vw;
     left: 60%;
     z-index: -1;
 }
@@ -114,7 +95,7 @@ img{
     opacity: 1;
     width: 25%;
     height: auto;
-    top: 39%;
+    top: 70vw;
     left: 60%;
     z-index: -1;
 }
@@ -123,7 +104,7 @@ img{
     opacity: 1;
     width: 25%;
     height: auto;
-    top: 47%;
+    top: 85vw;
     left: 60%;
     z-index: -1;
 }
@@ -139,7 +120,7 @@ img{
     opacity: 1;
     width: 25%;
     height: auto;
-    top: 64%;
+    top: 120vw;
     left: 13%;
     z-index: -1;
 }
@@ -148,7 +129,7 @@ img{
     opacity: 1;
     width: 25%;
     height: auto;
-    top: 64%;
+    top: 120vw;
     left: 63%;
     z-index: -1;
 }
@@ -157,7 +138,7 @@ img{
     opacity: 1;
     width: 25%;
     height: auto;
-    top: 93%;
+    top: 170vw;
     left: 13%;
     z-index: -1;
 }
@@ -166,7 +147,7 @@ img{
     opacity: 1;
     width: 25%;
     height: auto;
-    top: 93%;
+    top: 170vw;
     left: 63%;
     z-index: -1;
 }
@@ -182,4 +163,74 @@ img{
 }
 .olivia:hover{
     opacity: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+        height: auto;
+    }
+    .parent{
+        top: 15vw;
+    }
+    .topic{
+        font-size: 25px;
+        left: 30%;
+        top: 0%;
+    }
+    .arrowback{
+        width: 20px;
+        height: auto;
+        top: 3vw;
+    }
+    .arrownext{
+        width: 20px;
+        height: auto;
+        top: 3vw;
+    }
+    .calendar{
+        width: 20px;
+        height: auto;
+        top: 3vw;
+    }
+    img{
+        width: 220px;
+    }
+    .imagelarge{
+        left: -3%;
+    }
+
+    .tinahi{
+        top: 58vw;
+    }
+    .ruihi{
+        top: 78vw;
+    }
+
+    .eve1hi{
+        top: 56vw;
+    }
+    .eve2hi{
+        top: 70vw;
+    }
+    .abbyhi{
+        top: 84vw;
+    }
+    .kristinhi{
+        top: 120vw;
+        width: 20vw;
+    }
+    .naomihi{
+        top: 120vw;
+        width: 20vw;
+    }
+    .pallohi{
+        top: 180vw;
+        width: 20vw;
+    }
+    .oliviahi{
+        top: 180vw;
+        width: 20vw;
+    }
 }

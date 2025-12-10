@@ -1,45 +1,70 @@
 body{
-    background-color: rgb(47, 46, 46);
-    height: 1500px;
-    border: 30px black solid;
+    background-color: black;
+    height: auto;
+    overflow-x: hidden;
 }
 
+.title{
+    position: relative;
+    color: white;
+    font-size: 3.5vw;
+    top: 3vh;
+    left: 37%;
+}
 h1{
     font-family: "Macondo", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 2vw;
+}
+.calendar{
+    position: absolute;
+    left: 12%;
+    top: 7.5%;
+    width: 3%;
+    height: auto;
+}
+pre{
+    position: relative;
+    font-size: 1vw;
+    font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.arrownext{
+    position: absolute;
+    left: 90%;
+    top: 7.5%;
+    width: 3vw;
+    height: auto;
+    transform: scaleX(-1);
+}
+.arrowback{
+    position: absolute;
+    left: 6%;
+    top: 7.5%;
+    width: 3%;
+    height: auto;
+    filter: grayscale(100%);
 }
 
 .overall{
     color: white;
-    width: 300px;
+    width: 100%;
     height: auto;
 }
 
-.home{
+.hidden{
     color: white;
     position: relative;
-    width: auto;
-    display: block;
-    margin: auto;
-    text-align: center;
-    text-decoration: none;
-}
-.hidden{
-    color: rgb(143, 199, 255);
-    position: relative;
     left: 10%;
-    font-size:15px ;
+    font-size:1vw ;
     text-decoration: none;
 }
 .parent{
-    background-color: rgb(28, 29, 30);
+    background-color: black;
     position: relative;
-    /*left: 25%;
-    top: 40% ;*/
-    width: 800px;
-    height: 1100px;
+    width: 65vw;
+    height: auto;
     margin: auto;
     top: 30px;
     border: rgb(255, 255, 255) 10px solid;
@@ -47,37 +72,74 @@ h1{
 .child{
     color: white;
     position: relative;
-    left: 30px;
+    left: 2vw;
 }
 .child1{
     position: relative;
     left: 7%;
 }
 .child2{
-    color: rgb(62, 78, 112);
-    width: 400px;
+    color:black;
+    width:55%;
     position: relative;
     left: 38%;
-    background-color: rgb(217, 226, 245);
+    background-color: white;
 }
 .child2_1{
-    color: rgb(62, 78, 112);
-    width: 400px;
+    color: black;
+    width: 55%;
     position: relative;
     left: 39%;
-    background-color: rgb(217, 226, 245);
+    background-color: white;
 }
-.title{
-    color: white;
-    position: relative;
-    text-align: center;
-}
+
 .date2{
     position: relative;
-    left: 35px;
-    top: 5px;
+    left: 3vw;
+    top: 1vh;
 }
 .date22{
     position: relative;
     left: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .parent{
+        width: 90vw;
+        left: 3%;
+    }
+    pre{
+        font-size: 10px;
+    }
+    .title{
+        font-size: 25px;
+        left: 33%;
+        top: 20%;
+    }
+    .arrowback{
+        width: 20px;
+        height: auto;
+        top: 3%;
+    }
+    .arrownext{
+        width: 20px;
+        height: auto;
+        top: 3%;
+    }
+    .calendar{
+        width: 20px;
+        height: auto;
+        top: 3%;
+    }
+    .child2{
+        width: 70%;
+        left: 25%;
+    }
+    .child2_1{
+        width: 70%;
+        left: 26%;
+    }
+    .hidden{
+        font-size: 10px;
+    }
 }

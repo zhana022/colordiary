@@ -1,8 +1,7 @@
 body{
     background-color: black;
     overflow-x: hidden;
-    min-height: 550vh;
-    padding-bottom: 150px;
+    height: auto;
 }
 pre{
     font-family: "Macondo", cursive;
@@ -450,4 +449,190 @@ h3{
     100%{
         transform: translateY(-100%) translateX(10%) scale(1.2);
     }
+}
+
+
+@media only screen and (max-width: 650px) {
+    body{
+        height: auto;
+    }
+    .parent{
+        height: 2500px;
+    }
+      
+    .topic{
+        font-size: 25px;
+        left: 30%;
+        top: 0%;
+    }
+    .arrowback{
+        width: 20px;
+        height: auto;
+        top: 3%;
+    }
+    .arrownext{
+        width: 20px;
+        height: auto;
+        top: 3%;
+    }
+    .calendar{
+        width: 20px;
+        height: auto;
+        top: 3%;
+    }
+    .d1-1, .d1-2{
+        font-size: 13px;
+        position: relative;
+        left: 0%;
+    }
+    pre{
+        font-size: 13px;
+    }
+    
+
+    .Oct4{
+        font-size: 15px;
+        left:25vw;
+        top: 20vw;
+    }
+    .Oct5, .Oct6, .Oct9{
+        font-size: 15px;
+        left: 15vw;
+    }
+    .Oct6{
+        top: 20vw;
+    }
+
+
+    .card2{
+        top: 100vw;
+    }
+    .card3{
+        top: 210vw;
+    }
+    .card4{
+        top: 325vw;
+    }
+
+
+
+    .octimg4-1{
+        width: 20vw;
+        left: -15%;
+        top: -10vw;
+    }
+    .octimg4-2{
+        width: 20vw;
+        left: 30%;
+        top: -10vw;
+    }
+    .octimg4-3{
+        width: 20vw;
+        top: -10vw;
+        left: 75%;
+    }
+
+    .octimg5-1{
+        width: 25vw;
+        left: -10%;
+    }
+    .octimg5-2{
+        width: 25vw;
+        left:60%;
+    }
+    .octimg5-3, .octimg5-4, .octimg5-5, .octimg5-6{
+        width: 25vw;
+    }
+    .octimg5-4{
+        left: -10%;
+        top: 70vw;
+    }
+    .octimg5-6{
+        left: -10%;
+        top: 90vw;
+    }
+    .octimg5-3,.octimg5-5{
+        left: 55%;
+    }
+     .octimg5-3{
+        top: 70vw;
+    }
+    .octimg5-5{
+        top: 90vw;
+    }
+
+    .octimg6-1{
+        width: 25vw;
+        left: -10%;
+    }
+    .octimg6-2{
+        width: 25vw;
+        left: -10%;
+        top: 80vw;
+    }
+    .octimg6-3{
+        width: 25vw;
+        top: 65vw;
+    }
+    .octimg6-4{
+        width: 25vw;
+
+    }
+    .bd1{
+        width: 35vw;
+        top: 30vw;
+        left: 15%;
+    }
+    .bd2{
+        width: 25vw;
+        top: 60vw;
+        left: -10%;
+    }
+    .bd3{
+        width: 25vw;
+        top: 60vw;
+        left: 55%;
+    }
+    .bd4{
+        width: 25vw;
+        top: 100vw;
+        left: -10%;
+    }
+    .bd5{
+        width: 25vw;
+        top: 100vw;
+        left: 55%;
+    }
+
+    .oct4text, .Oct5text{
+        left: 20%;
+    }
+     .Oct6text{
+        left: -30%;
+     }
+     .Oct9text{
+        left: -5% ;
+     }
+
+
+     .bookfest, .abshooting, .Midautumn, .BDshooting{
+        font-size: 10px;
+     }
+     .bookfest{
+        top: 70vw;
+        left: 35%;
+        width: 70vw;
+     }
+     .abshooting{
+        top: 105vw;
+        left: 30%;
+     }
+     .Midautumn{
+        top: 100vw;
+        left: 30%;
+     }
+     .BDshooting{
+        top: 135vw;
+        left: 30%;
+     }
 }
